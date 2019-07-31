@@ -2,6 +2,15 @@
 using System.Windows;
 using CefSharp;
 using CefSharp.Wpf;
+using System.Collections.Generic;
+using System.Data.SQLite;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Controls;
+using GRE_Vocabs.Database;
+using GRE_Vocabs.Models;
+
 
 namespace GRE_Vocabs
 {
@@ -11,12 +20,22 @@ namespace GRE_Vocabs
     public partial class MainWindow : Window
     {
         public ChromiumWebBrowser chromeBrowser;
+        private GREVocabsDatabase greDatabase = new GREVocabsDatabase();
+        private List<VocabList> VList { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
-            // Start the browser after initialize global component
             InitializeChromium();
+
+            greDatabase.createDb();
+            DataContext = this;
+            VList = greDatabase.GetVocabList();
+            vocabListComboBox.ItemsSource = VList;
+            //BindVocabListComboBox(vocabListComboBox);
         }
+
+
         public void InitializeChromium()
         {
             CefSettings settings = new CefSettings();
@@ -38,16 +57,24 @@ namespace GRE_Vocabs
                                                       "document.querySelector('.fixed-tray').style.display = 'none';" +
                                                       "document.querySelector('#dictionaryNav').style.display = 'none'; " +
                                                       "document.querySelector('.signup-tout').style.display = 'none'; " +
-                                                      "document.querySelector('.page-footer').style.display = 'none'") ;
+                                                      "document.querySelector('.page-footer').style.display = 'none'");
                 }
             };
-
 
             // Add it to the form and fill it to the form window.
             vocabView.Children.Add(chromeBrowser);
 
         }
 
+        public void BindVocabListComboBox(ComboBox comboBoxName)
+        {
+            List<VocabList> vls =  greDatabase.GetVocabList();
+            comboBoxName.ItemsSource = vls.ToList();
+            comboBoxName.DisplayMemberPath = vls[0].VocabListName.ToString();
+            comboBoxName.SelectedValuePath = vls[0].VocabListId.ToString();
+
+
+        }
 
 
 

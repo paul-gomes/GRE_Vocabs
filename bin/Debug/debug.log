@@ -436,3 +436,111 @@
 [0731/131225.847:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
 [0731/131225.898:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
 [0731/131327.954:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+[0731/141412.908:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.008:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.074:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.175:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.778:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.840:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.874:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141413.940:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.440:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.473:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.506:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.574:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.908:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.940:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141414.998:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141423.267:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+[0731/141535.370:ERROR:browser_process_sub_thread.cc(221)] Waited 20 ms for network service
+[0731/141639.743:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+[0731/141758.796:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/141758.834:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/141759.324:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1On5mWaljm0etOfUuEHEzYA7pNX&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/141803.305:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.339:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.371:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.404:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.437:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.470:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.504:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.538:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.571:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.604:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.637:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.671:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.706:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.737:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.771:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.804:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141803.837:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.104:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.138:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.170:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.206:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.537:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.572:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.604:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.638:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141805.698:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/141807.147:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/141814.207:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+[0731/142440.208:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/142440.244:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/142442.601:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/142442.652:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/142542.146:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0731/151247.642:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/151247.699:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 3
+[0731/151247.737:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0731/151329.217:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/152252.309:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/152253.082:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnDfpprU2yq0JXgOsGMArWljNt&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/152341.064:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/152341.101:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/152341.134:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/152341.184:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/152348.881:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+[0731/154844.767:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/154845.126:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnGonwcPEczFxn5KLJOIqL20km&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/154857.524:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0731/165210.516:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/165214.629:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/165749.429:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.hb.ad.cpe.dotomi.com/s2s/header/24' from origin 'https://www.vocabulary.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.vocabulary.com/dictionary/affable (0)
+[0731/165750.233:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/165751.601:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/165751.632:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/165751.686:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/165757.550:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/171150.749:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/171526.594:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/171613.120:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/171617.292:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/172513.652:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/172513.681:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/172513.716:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/172513.757:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnSYHQiYUegn7e0Ps8eyFsvYkB&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/172513.767:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0731/172513.983:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/172849.800:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/172901.065:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/173232.011:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/173232.315:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnTRVDGiLgLDJMa5IBqu5kIkz4&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/173240.782:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service
+[0731/173410.693:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/173422.884:ERROR:browser_process_sub_thread.cc(221)] Waited 25 ms for network service
+[0731/173449.601:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/173451.954:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/173849.813:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/173849.821:INFO:CONSOLE(141)] "viewport has zero dimensions", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (141)
+[0731/173911.566:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0731/174015.271:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/174021.777:ERROR:browser_process_sub_thread.cc(221)] Waited 44 ms for network service
+[0731/174342.883:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/174343.164:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnUngtd9jGvKU59e7NjybLmpk3&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/174400.788:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+[0731/174550.419:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OnV3pQnnOzLtzjFf91LZCJm0kn&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0731/174550.587:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/174559.428:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0731/174633.320:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0731/174646.067:ERROR:browser_process_sub_thread.cc(221)] Waited 38 ms for network service

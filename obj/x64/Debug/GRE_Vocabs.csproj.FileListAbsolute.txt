@@ -101,3 +101,9 @@ C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.csproj.
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.csproj.CopyComplete
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.exe
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.pdb
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\EntityFramework.dll
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\SQLite.Interop.dll
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.dll
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.Linq.dll

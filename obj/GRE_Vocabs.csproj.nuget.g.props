@@ -20,6 +20,8 @@
     <Import Project="$(NuGetPackageRoot)cefsharp.wpf\75.1.140-pre01\build\CefSharp.Wpf.props" Condition="Exists('$(NuGetPackageRoot)cefsharp.wpf\75.1.140-pre01\build\CefSharp.Wpf.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\apgomes\.nuget\packages\entityframework\6.2.0</PkgEntityFramework>
+    <PkgSystem_Data_SQLite_EF6 Condition=" '$(PkgSystem_Data_SQLite_EF6)' == '' ">C:\Users\apgomes\.nuget\packages\system.data.sqlite.ef6\1.0.111</PkgSystem_Data_SQLite_EF6>
     <PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView Condition=" '$(PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView)' == '' ">C:\Users\apgomes\.nuget\packages\microsoft.toolkit.wpf.ui.controls.webview\6.0.0-preview6.4</PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView>
   </PropertyGroup>
 </Project>
