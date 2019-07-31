@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" 
-  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -137,15 +136,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\learn.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\review.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\mastered.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\flagged.png" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +169,15 @@
     <PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml">
       <Version>4.6.0-preview6.19303.8</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mastered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\review.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\learning.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

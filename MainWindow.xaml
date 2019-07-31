@@ -80,24 +80,24 @@
 
             <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource appArea}">
                 <WrapPanel Style="{StaticResource categoryStyleLeft}">
-                    <Button ToolTip ="Learning" Width="45" Height="33">
+                    <Button ToolTip ="Learning" Width="55" Height="45">
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="/GRE_Vocabs;component/Images\learn.jpg" />
+                            <Image Source="/GRE_Vocabs;component/Images\learning.png" />
                         </StackPanel>
                     </Button>
-                    <Button ToolTip ="Needs Reviewing" Width="45" Height="33">
+                    <Button ToolTip ="Needs Reviewing" Width="55" Height="45">
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="/GRE_Vocabs;component/Images\review.jpg" Width="41" />
+                            <Image Source="/GRE_Vocabs;component/Images\review.png"/>
                         </StackPanel>
                     </Button>
-                    <Button ToolTip ="Flagged" Width="45" Height="33">
+                    <Button ToolTip ="Flagged" Width="55" Height="45">
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="/GRE_Vocabs;component/Images\flagged.png" Width="36" />
+                            <Image Source="/GRE_Vocabs;component/Images\flagged.png"/>
                         </StackPanel>
                     </Button>
-                    <Button ToolTip ="Mastered" Width="45" Height="33">
+                    <Button ToolTip ="Mastered" Width="55" Height="45">
                         <StackPanel Orientation="Horizontal">
-                            <Image Source="/GRE_Vocabs;component/Images\mastered.jpg" Width="36" />
+                            <Image Source="/GRE_Vocabs;component/Images\mastered.png"/>
                         </StackPanel>
                     </Button>
                 </WrapPanel>
@@ -119,19 +119,19 @@
                     <StackPanel>
                         <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="right" VerticalAlignment="Center" TextWrapping="Wrap">Categorize Capricious</TextBlock>
                         <WrapPanel Style="{StaticResource buttonsRight}">
-                            <Button ToolTip ="Needs Reviewing" Width="45" Height="33">
+                            <Button ToolTip ="Needs Reviewing" Width="55" Height="45">
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="/GRE_Vocabs;component/Images\review.jpg" Width="41" />
+                                <Image Source="/GRE_Vocabs;component/Images\review.png" />
                             </StackPanel>
                             </Button>
-                            <Button ToolTip ="Flagged" Width="45" Height="33">
+                            <Button ToolTip ="Flagged" Width="55" Height="45">
                                 <StackPanel Orientation="Horizontal">
-                                    <Image Source="/GRE_Vocabs;component/Images\flagged.png" Width="36" />
+                                    <Image Source="/GRE_Vocabs;component/Images\flagged.png"/>
                                 </StackPanel>
                             </Button>
-                            <Button ToolTip ="Mastered" Width="45" Height="33">
+                            <Button ToolTip ="Mastered" Width="55" Height="45">
                                 <StackPanel Orientation="Horizontal">
-                                    <Image Source="/GRE_Vocabs;component/Images\mastered.jpg" Width="36" />
+                                    <Image Source="/GRE_Vocabs;component/Images\mastered.png"/>
                                 </StackPanel>
                             </Button>
                         </WrapPanel>
