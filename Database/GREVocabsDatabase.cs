@@ -39,8 +39,9 @@ namespace GRE_Vocabs.Database
             sqlite_cmd.ExecuteNonQuery();
 
             //Insert Data On VocabList table
-            sqlite_cmd.CommandText = "INSERT OR REPLACE INTO VocabList (VocabListId, VocabListName) VALUES (1, 'ETS GRE Official Guide 3rd Edition');" +
-                                     "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(2, 'Mangoosh GRE Vocab E-Book List');";
+            sqlite_cmd.CommandText = "INSERT OR REPLACE INTO VocabList (VocabListId, VocabListName) VALUES (1, 'Manhattan Prep 3rd Edition');" +
+                                     "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(2, 'ETS GRE Official Guide 3rd Edition');" +
+                                     "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(3, 'Mangoosh GRE Vocab E-Book List');";
             sqlite_cmd.ExecuteNonQuery();
             dbConnection.Close();
         }

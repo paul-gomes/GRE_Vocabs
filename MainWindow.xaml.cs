@@ -21,7 +21,6 @@ namespace GRE_Vocabs
     {
         public ChromiumWebBrowser chromeBrowser;
         private GREVocabsDatabase greDatabase = new GREVocabsDatabase();
-        private List<VocabList> VList { get; set; }
 
         public MainWindow()
         {
@@ -29,10 +28,9 @@ namespace GRE_Vocabs
             InitializeChromium();
 
             greDatabase.createDb();
-            DataContext = this;
-            VList = greDatabase.GetVocabList();
-            vocabListComboBox.ItemsSource = VList;
-            //BindVocabListComboBox(vocabListComboBox);
+
+            //Binds GRE vocab collection list comboBox
+            BindVocabListComboBox(vocabListComboBox);
         }
 
 
@@ -66,14 +64,12 @@ namespace GRE_Vocabs
 
         }
 
+
+        //Populates the GRE Vocabulary collection list comboBox
         public void BindVocabListComboBox(ComboBox comboBoxName)
         {
             List<VocabList> vls =  greDatabase.GetVocabList();
             comboBoxName.ItemsSource = vls.ToList();
-            comboBoxName.DisplayMemberPath = vls[0].VocabListName.ToString();
-            comboBoxName.SelectedValuePath = vls[0].VocabListId.ToString();
-
-
         }
 
 
@@ -83,6 +79,11 @@ namespace GRE_Vocabs
             
         }
 
+        private void AddQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            AddQuestion addQwindow = new AddQuestion();
+            addQwindow.Show();
+        }
     }
 
 }
