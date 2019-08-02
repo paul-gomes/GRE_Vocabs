@@ -142,8 +142,8 @@
                         <Button Margin="5,0">Google.com</Button>
                     </WrapPanel>
                     <WrapPanel Style="{StaticResource buttonsRight}">
-                        <Button x:Name="addQuestion" Margin="5,0" Click="AddQuestion_Click">Add To Testing Questions</Button>
-                        <Button Margin="5,0">Test Mode</Button>
+                        <Button x:Name="questionBank" Margin="5,0" Click="QuestionBank_Click">Questions Bank</Button>
+                        <Button x:Name="addQuestion" Margin="5,0" Click="AddQuestion_Click">Add To Questions Bank</Button>
                     </WrapPanel>
                 </DockPanel>
             </Border>
@@ -152,6 +152,18 @@
                 <DockPanel>
                     <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">LERANING</TextBlock>
                 </DockPanel>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="0">
+                <ListView Margin="10" SelectedIndex="0" Name="wordListView" FontFamily="Open Sans" FontSize="14" Cursor="Hand" Background="#FFDCD7D7" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black" PreviewMouseLeftButtonUp="WordListView_click">
+                    <ListView.Effect>
+                        <DropShadowEffect/>
+                    </ListView.Effect>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Words" Width="120"  DisplayMemberBinding="{Binding Word}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
             </Border>
             <Border Grid.Row="3" Grid.Column="2">
                 <Grid x:Name="vocabView">

@@ -34,8 +34,13 @@ namespace GRE_Vocabs.Database
 
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
             //Creates table VocabList 
-            string createVocabList = "CREATE TABLE IF NOT EXISTS VocabList(VocabListId INT PRIMARY KEY NOT NULL, VocabListName VARCHAR(20) NOT NULL)";
+            string createVocabList = "CREATE TABLE IF NOT EXISTS VocabList(VocabListId INT PRIMARY KEY NOT NULL, VocabListName VARCHAR(50) NOT NULL)";
             sqlite_cmd.CommandText = createVocabList;
+            sqlite_cmd.ExecuteNonQuery();
+
+            //Creates table Words
+            string createWords = "CREATE TABLE IF NOT EXISTS Words(WordId INT PRIMARY KEY NOT NULL, Word VARCHAR(20) NOT NULL, WordStatus VARCHAR(20) NOT NULL, VocabListId INT NOT NULL, FOREIGN KEY(VocabListId) REFERENCES VocabList(VocabListId))";
+            sqlite_cmd.CommandText = createWords;
             sqlite_cmd.ExecuteNonQuery();
 
             //Insert Data On VocabList table
@@ -43,6 +48,12 @@ namespace GRE_Vocabs.Database
                                      "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(2, 'ETS GRE Official Guide 3rd Edition');" +
                                      "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(3, 'Mangoosh GRE Vocab E-Book List');";
             sqlite_cmd.ExecuteNonQuery();
+
+            sqlite_cmd.CommandText = "INSERT OR REPLACE INTO Words(WordId, Word, WordStatus, VocabListId) VALUES (1, 'INCHOATE' , 'Learning',  1);" +
+                                     "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(2, 'BESIEGE','Learning',  1);" +
+                                     "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(3, 'AMALGAMATE','Learning',  1);";
+            sqlite_cmd.ExecuteNonQuery();
+
             dbConnection.Close();
         }
 
@@ -61,6 +72,30 @@ namespace GRE_Vocabs.Database
                     vl.VocabListId = reader.GetInt32(0);
                     vl.VocabListName = reader.GetString(1);
                     data.Add(vl);
+                }
+            }
+
+            dbConnection.Close();
+            return data;
+        }
+
+        public List<Words> GetWords(string wordStatus)
+        {
+            List<Words> data = new List<Words>();
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("SELECT * FROM Words WHERE Words.WordStatus = '{0}'", wordStatus );
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    Words word = new Words();
+                    word.WordId = reader.GetInt32(0);
+                    word.Word = reader.GetString(1);
+                    word.WordStatus = reader.GetString(2);
+                    word.VocabListId = reader.GetInt32(3);
+                    data.Add(word);
                 }
             }
 

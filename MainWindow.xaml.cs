@@ -25,23 +25,26 @@ namespace GRE_Vocabs
         public MainWindow()
         {
             InitializeComponent();
-            InitializeChromium();
-
             greDatabase.createDb();
+
+            // Initialize cef with the provided settings
+            CefSettings settings = new CefSettings();
+            Cef.Initialize(settings);
+            LoadVocabularyPage((greDatabase.GetWords("Learning"))[0].Word);
 
             //Binds GRE vocab collection list comboBox
             BindVocabListComboBox(vocabListComboBox);
+
+            //Binds wordListView
+            BindWordGrid(wordListView);
         }
 
 
-        public void InitializeChromium()
+        public void LoadVocabularyPage(string word)
         {
-            CefSettings settings = new CefSettings();
-            // Initialize cef with the provided settings
-            Cef.Initialize(settings);
 
             // Create a browser component
-            chromeBrowser = new ChromiumWebBrowser("https://www.vocabulary.com/dictionary/affable");
+            chromeBrowser = new ChromiumWebBrowser(String.Format("https://www.vocabulary.com/dictionary/{0}", word.ToLower() ));
 
             chromeBrowser.FrameLoadEnd += (sender, args) =>
             {
@@ -72,6 +75,24 @@ namespace GRE_Vocabs
             comboBoxName.ItemsSource = vls.ToList();
         }
 
+        //Populates Words grid
+        public void BindWordGrid(ListView name)
+        {
+            List<Words> words = greDatabase.GetWords("Learning");
+            name.ItemsSource = words;
+        }
+
+        //Loads the vocabulary page for selected word
+        private void WordListView_click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            var item = (sender as ListView).SelectedItem;
+            Words word = (Words)item;
+            if (item != null)
+            {
+                LoadVocabularyPage(word.Word);
+            }
+
+        }
 
 
         private void vocabulary_click(object sender, RoutedEventArgs e)
@@ -84,6 +105,14 @@ namespace GRE_Vocabs
             AddQuestion addQwindow = new AddQuestion();
             addQwindow.Show();
         }
+
+        private void QuestionBank_Click(object sender, RoutedEventArgs e)
+        {
+            QuestionBank qbWindow = new QuestionBank();
+            qbWindow.Show();
+        }
+
+
     }
 
 }
