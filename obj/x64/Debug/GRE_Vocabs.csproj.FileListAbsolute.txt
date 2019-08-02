@@ -107,7 +107,5 @@ C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\SQLite.Interop.dll
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.dll
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\AddQuestion.g.cs
-C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\AddQuestion.baml
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\QuestionBank.g.cs
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\QuestionBank.baml

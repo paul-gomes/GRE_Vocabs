@@ -100,12 +100,6 @@ namespace GRE_Vocabs
             
         }
 
-        private void AddQuestion_Click(object sender, RoutedEventArgs e)
-        {
-            AddQuestion addQwindow = new AddQuestion();
-            addQwindow.Show();
-        }
-
         private void QuestionBank_Click(object sender, RoutedEventArgs e)
         {
             QuestionBank qbWindow = new QuestionBank();
