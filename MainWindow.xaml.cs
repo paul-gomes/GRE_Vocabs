@@ -30,7 +30,7 @@ namespace GRE_Vocabs
             // Initialize cef with the provided settings
             CefSettings settings = new CefSettings();
             Cef.Initialize(settings);
-            LoadVocabularyPage((greDatabase.GetWords("Learning"))[0].Word);
+            LoadVocabularyPage((greDatabase.GetWords("Learning", 1))[0].Word);
 
             //Binds GRE vocab collection list comboBox
             BindVocabListComboBox(vocabListComboBox);
@@ -44,7 +44,7 @@ namespace GRE_Vocabs
         {
 
             // Create a browser component
-            chromeBrowser = new ChromiumWebBrowser(String.Format("https://www.vocabulary.com/dictionary/{0}", word.ToLower() ));
+            chromeBrowser = new ChromiumWebBrowser(String.Format("https://www.vocabulary.com/dictionary/{0}", word.ToLower()));
 
             chromeBrowser.FrameLoadEnd += (sender, args) =>
             {
@@ -71,15 +71,16 @@ namespace GRE_Vocabs
         //Populates the GRE Vocabulary collection list comboBox
         public void BindVocabListComboBox(ComboBox comboBoxName)
         {
-            List<VocabList> vls =  greDatabase.GetVocabList();
+            List<VocabList> vls = greDatabase.GetVocabList();
             comboBoxName.ItemsSource = vls.ToList();
         }
 
         //Populates Words grid
         public void BindWordGrid(ListView name)
         {
-            List<Words> words = greDatabase.GetWords("Learning");
+            List<Words> words = greDatabase.GetWords("Learning", 1);
             name.ItemsSource = words;
+            name.SelectedValue = words[0];
         }
 
         //Loads the vocabulary page for selected word
@@ -93,20 +94,229 @@ namespace GRE_Vocabs
             }
 
         }
-
-
-        private void vocabulary_click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void QuestionBank_Click(object sender, RoutedEventArgs e)
         {
             QuestionBank qbWindow = new QuestionBank();
             qbWindow.Show();
         }
 
+        private void ClassifyReview_Click(object sender, RoutedEventArgs e)
+        {
+            var item = (sender as Button).DataContext;
+            Words word = (Words)item;
+            int wordId = word.WordId;
+            greDatabase.ClassifyWord(wordId, "Review");
+            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            wordListView.ItemsSource = words;
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
 
+            }
+            else
+            {
+                vocabView.Children.Clear();
+            }
+
+
+        }
+
+
+        private void ClassifyFlagged_Click(object sender, RoutedEventArgs e)
+        {
+            var item = (sender as Button).DataContext;
+            Words word = (Words)item;
+            int wordId = word.WordId;
+            greDatabase.ClassifyWord(wordId, "Flagged");
+            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            wordListView.ItemsSource = words;
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+
+            }
+            else
+            {
+                vocabView.Children.Clear();
+            }
+
+
+        }
+
+        private void ClassifyMastered_Click(object sender, RoutedEventArgs e)
+        {
+            var item = (sender as Button).DataContext;
+            Words word = (Words)item;
+            int wordId = word.WordId;
+            greDatabase.ClassifyWord(wordId, "Mastered");
+            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            wordListView.ItemsSource = words;
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+
+            }
+            else
+            {
+                vocabView.Children.Clear();
+            }
+
+        }
+
+        private void ShowLearning_Click(object sender, RoutedEventArgs e)
+        {
+            int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
+            List<Words> words = greDatabase.GetWords("Learning", vocabListId);
+            wordListView.ItemsSource = words;
+            selectedCategory.Text = "Learning";
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+            }
+            else
+            {
+                MessageBox.Show("No words found under this category!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                vocabView.Children.Clear();
+
+            }
+
+        }
+
+        private void ShowReview_Click(object sender, RoutedEventArgs e)
+        {
+            int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
+            List<Words> words = greDatabase.GetWords("Review", vocabListId);
+            wordListView.ItemsSource = words;
+            selectedCategory.Text = "Needs Reviewing";
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+            }
+            else
+            {
+                MessageBox.Show("No words found under this category!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                vocabView.Children.Clear();
+
+            }
+
+        }
+
+        private void ShowFlagged_Click(object sender, RoutedEventArgs e)
+        {
+            int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
+            List<Words> words = greDatabase.GetWords("Flagged", vocabListId);
+            wordListView.ItemsSource = words;
+            selectedCategory.Text = "Flagged";
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+            }
+            else
+            {
+                MessageBox.Show("No words found under this category!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                vocabView.Children.Clear();
+
+            }
+
+        }
+
+        private void ShowMastered_Click(object sender, RoutedEventArgs e)
+        {
+            int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
+            List<Words> words = greDatabase.GetWords("Mastered", vocabListId);
+            wordListView.ItemsSource = words;
+            selectedCategory.Text = "Mastered";
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+            }
+            else
+            {
+                MessageBox.Show("No words found under this category!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                vocabView.Children.Clear();
+
+            }
+
+        }
+
+        private void VocabListComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
+            List<Words> words = greDatabase.GetWords("Learning", vocabListId);
+            wordListView.ItemsSource = words;
+            selectedCategory.Text = "Learning";
+            if (words.Count > 0)
+            {
+                wordListView.SelectedValue = words[0];
+                LoadVocabularyPage(words[0].Word);
+            }
+            else
+            {
+                vocabView.Children.Clear();
+            }
+
+        }
+
+        private void Bengali_Click(object sender1, RoutedEventArgs e)
+        {
+            Words word = (Words) wordListView.SelectedValue;
+            if (word != null)
+            {
+                // Create a browser component
+                chromeBrowser = new ChromiumWebBrowser(String.Format("https://translate.google.com/?hl=en&tab=wT1#view=home&op=translate&sl=en&tl=bn&text={0}", word.Word.ToLower()));
+
+                chromeBrowser.FrameLoadEnd += (sender, args) =>
+                {
+                //Wait for the MainFrame to finish loading
+                if (args.Frame.IsMain)
+                    {
+                        args.Frame.ExecuteJavaScriptAsync("var item = document.querySelector('.input-button-container').style.display = 'none';" +
+                                                          "document.querySelector('.gb_Pd').style.display = 'none'");
+                    }
+                };
+
+                // Add it to the form and fill it to the form window.
+                vocabView.Children.Add(chromeBrowser);
+            }
+            else
+            {
+                MessageBox.Show("Please select a word.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void Vocabulary_Click(object sender1, RoutedEventArgs e)
+        {
+            Words word = (Words)wordListView.SelectedValue;
+            // Create a browser component
+            chromeBrowser = new ChromiumWebBrowser(String.Format("https://www.vocabulary.com/dictionary/{0}", word.Word.ToLower()));
+
+            chromeBrowser.FrameLoadEnd += (sender, args) =>
+            {
+                //Wait for the MainFrame to finish loading
+                if (args.Frame.IsMain)
+                {
+                    args.Frame.ExecuteJavaScriptAsync("var item = document.getElementById('dictionary-upper-ad-right'); item.parentNode.removeChild(item);" +
+                                                      "document.querySelector('#dictionary-lower-ad').style.display = 'none';" +
+                                                      "document.querySelector('.leaderboard-ad').style.display = 'none';" +
+                                                      "document.querySelector('.page-header').style.display = 'none';" +
+                                                      "document.querySelector('.fixed-tray').style.display = 'none';" +
+                                                      "document.querySelector('#dictionaryNav').style.display = 'none'; " +
+                                                      "document.querySelector('.signup-tout').style.display = 'none'; " +
+                                                      "document.querySelector('.page-footer').style.display = 'none'");
+                }
+            };
+
+            // Add it to the form and fill it to the form window.
+            vocabView.Children.Add(chromeBrowser);
+
+        }
     }
 
 }

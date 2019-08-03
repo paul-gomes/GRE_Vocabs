@@ -54,9 +54,15 @@ namespace GRE_Vocabs.Database
                                      "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(3, 'AMALGAMATE','Learning',  1);";
             sqlite_cmd.ExecuteNonQuery();
 
+            sqlite_cmd.CommandText = "INSERT OR REPLACE INTO Words(WordId, Word, WordStatus, VocabListId) VALUES (10001, 'SARTORIAL' , 'Learning',  2);" +
+                                     "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(10002, 'EXOTIC','Learning',  2);" +
+                                     "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(10003, 'DOGMATISM','Learning',  2);";
+            sqlite_cmd.ExecuteNonQuery();
+
             dbConnection.Close();
         }
 
+        //Gets all the vocabulary list
         public List<VocabList> GetVocabList()
         {
             List<VocabList> data = new List<VocabList>();
@@ -79,12 +85,13 @@ namespace GRE_Vocabs.Database
             return data;
         }
 
-        public List<Words> GetWords(string wordStatus)
+        //Gets all the words of the specific status
+        public List<Words> GetWords(string wordStatus, int vocabListId)
         {
             List<Words> data = new List<Words>();
             dbConnection.Open();
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
-            sqlite_cmd.CommandText = String.Format("SELECT * FROM Words WHERE Words.WordStatus = '{0}'", wordStatus );
+            sqlite_cmd.CommandText = String.Format("SELECT * FROM Words WHERE Words.WordStatus = '{0}' AND Words.VocabListId = {1}", wordStatus, vocabListId);
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             if (reader.HasRows)
             {
@@ -101,6 +108,16 @@ namespace GRE_Vocabs.Database
 
             dbConnection.Close();
             return data;
+        }
+
+        //Updates wordStatus
+        public void ClassifyWord(int wordId, string wordStatus)
+        {
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("UPDATE Words SET WordStatus = '{0}' WHERE WordId = {1}; ", wordStatus, wordId);
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            dbConnection.Close();
         }
     }
 }

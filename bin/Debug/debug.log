@@ -1175,3 +1175,984 @@
 [0802/201534.240:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 1
 [0802/201534.291:ERROR:browser_process_sub_thread.cc(221)] Waited 36 ms for network service
 [0802/201612.242:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/204557.288:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/204558.190:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtVDCnXjg5NXbaXLvTKZR44vSl&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/204644.830:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/204644.882:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/210759.682:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/210759.696:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/210759.715:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/210759.766:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/210800.112:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/210801.225:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtXtMy9PjxLbxDxrecxZ5Q2Dym&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/210814.970:ERROR:browser_process_sub_thread.cc(221)] Waited 32 ms for network service
+[0802/211323.292:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/211323.392:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/222914.440:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/223226.608:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/223227.533:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtiAAL5lC4nvBqW9f7FqQkpByT&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/223242.857:INFO:CONSOLE(49)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://s0.2mdn.net/5053096/1559010933773/index.html (49)
+[0802/223252.734:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+[0802/223916.568:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 21
+[0802/223917.348:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/223918.033:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtizixeVsT84BObw9PMNjIfI70&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/223918.542:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+[0802/224230.102:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/224242.853:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0802/224307.201:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/224308.056:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtjSc9oIbQmt1lbUixKMx6EQxg&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/224324.112:INFO:CONSOLE(1)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (1)
+[0802/224325.792:INFO:CONSOLE(0)] "Refused to execute script from 'https://tracker.samplicio.us/tracker/c866cdf0-102e-4506-b7d5-1f51128b98fd/pixel.gif?sid=4997780&pid=240847149&crid=116918916&device_id=AMsySZb9uY_k-QF9NHueYOxXsYED&c1=22355191&cachebuster=979952526' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N916215.284566THETRADEDESK/B22355191.240847149;dc_ver=51.134;sz=320x50;u_sd=1;dc_adk=192133273;ord=bb3bo6;click=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc86b819b-be09-4846-86b3-44c4b86fb07c%26ag%3D8ng6on2%26sfe%3Df7c82db%26sig%3DonLw6sfw7P1JMxxjvE2hkH-cPjpCPCx4ayEOyLV6tkY.%26crid%3D3ahuyenn%26cf%3D749869%26fq%3D0%26td_s%3Dwww.vocabulary.com%26rcats%3D7sp%26mcat%3Dgc_ogilvyus_iqvia_ebp%26mste%3D%26mfld%3D4%26mssi%3DNone%26mfsi%3D138chrvunb%26sv%3Drubicon%26uhow%3D142%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DMissouri%26rgme%3D616%26rgci%3DKansas%2520City%26rgz%3D64114%26dt%3DPC%26osf%3DWindows%26os%3DWindows8%26br%3DChrome%26svpid%3D18020%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D22.76%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26c%3DOAI.%26dur%3DChoKB3Z6dmgxa3ciDwjBjbcBEgh0dGRhYnNlZwowCgxjaGFyZ2UtYWxsLTEiIAj___________8BEhN0dGRfZGF0YV9leGNsdXNpb25zCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlWaWV3YWJpbGl0eSIZCPD__________wESDGRvdWJsZXZlcmlmeQ..%26crrelr%3D%26npt%3D%26svscid%3Dxapi%253A191552%253A8EHoX3NhOuSw%26mk%3DGoogle%26mdl%3DChrome%2520-%2520Windows%26ipl%3D931770%26fpa%3D759%26pcm%3D3%26ict%3DUnknown%26said%3Dd619065ab6ec848df5d85da4aadafa63fe710bea%26r%3D;dc_rfl=2,https%3A%2F%2Fwww.vocabulary.com$2,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Finchoate$0;xdt=1;crlt=JE6PiRi*N';cmpl=2;osda=2;sttr=82;prcl=s? (0)
+[0802/224329.634:INFO:CONSOLE(24)] "Blocked a frame with origin "https://aax-us-east.amazon-adsystem.com" from accessing a cross-origin frame.", source: https://choices.trustarc.com/ca?aid=tradedesk01&pid=tradedesk01&cid=rxd7pgv_8ng6on2_3ahuyenn&w=320&h=50&c=tradedesk01cont1&js=pmw2 (24)
+[0802/224339.330:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/224339.384:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/224653.179:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/224653.216:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/230137.402:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/230137.844:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/230137.876:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/230137.928:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/231605.950:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/231605.999:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232014.233:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://fonts.gstatic.com/stats/Open+Sans/italic/400", source: https://www.vocabulary.com/dictionary/inchoate (0)
+[0802/232014.234:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://fonts.gstatic.com/stats/Open+Sans/italic/400", source: https://www.vocabulary.com/dictionary/inchoate (0)
+[0802/232016.689:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232033.833:ERROR:browser_process_sub_thread.cc(221)] Waited 23 ms for network service
+[0802/232224.870:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232225.094:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232225.126:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232225.392:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232225.425:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232225.478:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232226.351:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232226.422:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232227.023:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/232227.591:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232227.597:INFO:CONSOLE(32)] "a: 0.007080078125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232228.684:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtoFKxDG2o1vOJCaExwZaeQCWA&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/232232.316:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232232.889:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232232.889:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232233.161:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232233.212:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232233.671:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0802/232255.237:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service
+[0802/232338.639:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232349.273:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+[0802/232553.819:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232553.859:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232554.548:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtofFCwY8bspOJfEjEaBvssuZx&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/232601.676:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232601.726:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232601.778:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232602.293:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/232602.330:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232602.331:INFO:CONSOLE(32)] "a: 0.0009765625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/232602.885:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0802/232621.333:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/232621.529:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232621.561:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232621.590:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232621.644:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/232629.268:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 55
+[0802/232629.434:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 53
+[0802/232629.653:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 49
+[0802/233120.065:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/233120.879:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0802/233120.880:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233120.881:INFO:CONSOLE(1)] "Barometric: Placement - 100342", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233121.025:INFO:CONSOLE(1)] "Not visible or prerender", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233121.032:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/233121.458:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/233121.459:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0802/233121.459:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0802/233121.460:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0802/233121.521:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.521:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.538:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.573:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.574:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.574:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.594:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233121.595:INFO:CONSOLE(32)] "a: 0.001220703125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233121.644:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.644:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.679:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.682:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.693:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0802/233121.845:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtpKELMOcq3JSHfueNCpC2vC1h&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/233122.036:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0802/233124.026:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233124.026:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233124.026:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233124.027:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6891&p=100342&partner=104&ord=89b7c9c1-b5a7-11e9-a4e8-121d53e0e91a&v=120&nocr=1 (1)
+[0802/233132.532:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0802/233132.532:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0802/233132.533:WARNING:stun_port.cc(444)] Port[9ec3cc90:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0802/233132.533:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0802/233132.603:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0802/233132.603:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0802/233132.603:WARNING:stun_port.cc(444)] Port[9ec3cc90:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0802/233132.603:WARNING:stun_port.cc(444)] Port[9ec3d1a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0802/233201.275:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.275:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.297:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.329:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.329:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.401:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.401:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.437:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.437:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233201.449:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55536 (any)
+[0802/233310.549:ERROR:broker_win.cc(137)] Error sending sync broker message: The pipe is being closed. (0xE8)
+[0802/233500.743:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/233501.358:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Otplrtzc5HzuuKx60dHal7O6FY&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/233501.363:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/233501.929:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233501.930:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233506.497:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/233550.307:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/233552.910:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtpsEqjTffYaRjCDRgU6pOR977&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/233554.718:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/233554.742:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233554.743:INFO:CONSOLE(32)] "a: 0.001708984375ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/233555.981:INFO:CONSOLE(90)] "The devicemotion events are blocked by feature policy. See https://github.com/WICG/feature-policy/blob/master/features.md#sensor-features", source: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_154_3_0/ebHtml5Banner.js (90)
+[0802/233555.982:INFO:CONSOLE(90)] "The deviceorientation events are blocked by feature policy. See https://github.com/WICG/feature-policy/blob/master/features.md#sensor-features", source: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_154_3_0/ebHtml5Banner.js (90)
+[0802/234039.995:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234040.701:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234041.283:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234041.284:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234045.716:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234045.907:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234045.913:INFO:CONSOLE(32)] "a: 0.007080078125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234046.440:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0802/234048.339:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234048.345:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234048.346:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234109.307:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234113.710:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234114.259:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234114.261:INFO:CONSOLE(32)] "a: 0.0009765625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234114.369:INFO:CONSOLE(37)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://s0.2mdn.net/ads/richmedia/studio/pv2/61173310/20190711135739865/index.html?e=69&leftOffset=0&topOffset=0&c=gAMDA4jq3t&t=1&renderingType=2 (37)
+[0802/234115.277:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234115.283:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234115.284:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234115.317:INFO:CONSOLE(37)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://s0.2mdn.net/ads/richmedia/studio/pv2/61175948/20190711151052332/index.html?e=69&leftOffset=0&topOffset=0&c=5k2fImzvYD&t=1&renderingType=2 (37)
+[0802/234115.559:ERROR:render_media_log.cc(27)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0802/234115.559:ERROR:render_media_log.cc(27)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0802/234116.499:ERROR:render_media_log.cc(27)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0802/234116.499:ERROR:render_media_log.cc(27)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0802/234834.112:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234834.649:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234835.223:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234835.224:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234921.573:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234922.102:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234922.667:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234922.669:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234922.702:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtrW4ii2CHQfH69HLjXlCJPbto&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/234934.359:INFO:CONSOLE(0)] "Refused to execute script from 'https://tracker.samplicio.us/tracker/c866cdf0-102e-4506-b7d5-1f51128b98fd/pixel.gif?sid=4997780&pid=240846834&crid=116918910&device_id=AMsySZaaiziGg6qcC4RK6ALKqiUN&c1=22355191&cachebuster=3576037449' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N916215.284566THETRADEDESK/B22355191.240846834;dc_ver=51.134;dc_eid=40004001;sz=728x90;osdl=1;u_sd=1;dc_adk=3756774875;ord=p8685f;click=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Df5e39de8-64c7-493c-97a0-35608a4345cb%26ag%3D8ng6on2%26sfe%3Df7c925c%26sig%3DFKg3RncwmRhFsN3YNajMzNqIC9DSObzEOtxq7Dt28vE.%26crid%3D9djetw37%26cf%3D749869%26fq%3D0%26td_s%3Dwww.vocabulary.com%26rcats%3D3oc%26mcat%3Dgc_ogilvyus_iqvia_ebp%26mste%3D%26mfld%3D4%26mssi%3DNone%26mfsi%3D138chrvunb%26sv%3Dopenx%26uhow%3D143%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DMissouri%26rgme%3D616%26rgci%3DKansas%2520City%26rgz%3D64114%26dt%3DPC%26osf%3DWindows%26os%3DWindows8%26br%3DChrome%26svpid%3D539954800%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D22.03%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26c%3DOAE.%26dur%3DChoKB3Z6dmgxa3ciDwjBjbcBEgh0dGRhYnNlZwowCgxjaGFyZ2UtYWxsLTEiIAj___________8BEhN0dGRfZGF0YV9leGNsdXNpb25zCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlWaWV3YWJpbGl0eSIZCPD__________wESDGRvdWJsZXZlcmlmeQ..%26crrelr%3D%26npt%3D%26svscid%3D539955325%26mk%3Ddesktop%26mdl%3DChrome%2520-%2520Windows%26adpt%3Dnopx%26ipl%3DJTJGMTU2NjU1MDMlMkZEaWN0aW9uYXJ5LVRvcC1CYW5uZXJ3d3cudm9jYWJ1bGFyeS5jb20%26fpa%3D615%26pcm%3D3%26ict%3DUnknown%26said%3D33b78932-f683-4a68-8ab2-fdb20776c713%26r%3D;dc_rfl=1,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Finchoate$0;xdt=0;crlt=_xvkpxNyq.;cmpl=2;osda=2;sttr=9;prcl=s? (0)
+[0802/234939.370:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234944.197:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234948.018:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/234955.295:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/234955.303:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234955.303:INFO:CONSOLE(32)] "a: 0.0009765625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/234955.746:INFO:CONSOLE(147)] " [  0.000s] [studio.sdk] ", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0802/234956.754:INFO:CONSOLE(147)] " [  1.006s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0802/235134.074:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/235134.105:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/235134.156:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0802/235138.155:INFO:CONSOLE(0)] "Refused to execute script from 'https://tracker.samplicio.us/tracker/c866cdf0-102e-4506-b7d5-1f51128b98fd/pixel.gif?sid=4997780&pid=240847149&crid=116918916&device_id=AMsySZaaiziGg6qcC4RK6ALKqiUN&c1=22355191&cachebuster=1132292865' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N916215.284566THETRADEDESK/B22355191.240847149;dc_ver=51.134;sz=320x50;osdl=1;u_sd=1;dc_adk=1633449854;ord=hz65z7;click=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fttd_r%3D%26imp%3Dc74a73a9-f224-44b7-885e-339d2d0f62fa%26ag%3D8ng6on2%26sfe%3Df7c92d8%26sig%3DtyOBbLjCZdgxDgK4rPWYR-_CEc_FXY_E6vxB8pLl96M.%26crid%3D3ahuyenn%26cf%3D749869%26fq%3D0%26td_s%3Dwww.vocabulary.com%26rcats%3D%26mcat%3Dgc_ogilvyus_iqvia_ebp%26mste%3D%26mfld%3D4%26mssi%3DNone%26mfsi%3D138chrvunb%26sv%3Dappnexus%26uhow%3D143%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DMissouri%26rgme%3D616%26rgci%3DKansas%2520City%26rgz%3D64114%26dt%3DPC%26osf%3DWindows%26os%3DWindows8%26br%3DChrome%26svpid%3D9361%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D22.03%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26c%3DOAE.%26dur%3DChoKB3Z6dmgxa3ciDwjBjbcBEgh0dGRhYnNlZwowCgxjaGFyZ2UtYWxsLTEiIAj___________8BEhN0dGRfZGF0YV9leGNsdXNpb25zCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlWaWV3YWJpbGl0eSIZCPD__________wESDGRvdWJsZXZlcmlmeQ..%26crrelr%3D%26npt%3D%26svscid%3D3454804%26mk%3DUnknown%26mdl%3DChrome%2520-%2520Windows%26adpt%3Danor%26ipl%3D13071954%26fpa%3D767%26pcm%3D3%26ict%3DUnknown%26said%3D4158400294743869838%26r%3D;dc_rfl=1,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Finchoate$0;xdt=0;crlt=majiWFXB7D;cmpl=2;sttr=7;prcl=s? (0)
+[0802/235140.892:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0802/235140.977:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0802/235145.275:INFO:CONSOLE(0)] "Refused to execute script from 'https://app.leadsrx.com/impression?at=jbhway27694&cid=210599' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N30602.1040341DIGILANT.COM4/B22734121.246969332;dc_ver=51.134;dc_eid=40004000;sz=728x90;u_sd=1;dc_adk=1633449855;ord=d6qf6m;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D1855650777063217119%26mt_id%3D6909868%26mt_adid%3D203482%26mt_sid%3D4894987%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3D9e0c5d45-0767-4500-9d1a-c2eb4821d081%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCRa1H3xJFXfnwM4y-gwa097-ACITZludWpafdvKMJwI23ARABIABgyYaAgPgjggEXY2EtcHViLTE5NDQ0MzU1NjY4MDc3NTDIAQngAgCoAwGqBN4BT9DVgdnBCB0m6HWzjdCaTyeBr_J_4X59LatGrgKEs1jPqvZNwQr6ZzSexpEt0DjQORO7n4TUS9KJli-FQXTvbusUwoXtXZfKGFoXSJQPRN0_acD7XbR2CZdp93T8kZrVyQ5UMZm-gnc3d9tkxaq1yMUncG-kKNY5K_e03kNKNGjlQLvNOlDBZ4L3_IlS9Lq73hY2tOvTgSonhPR0SDzo9kmXElZWh3ElwLmgQf0ngrJA6eukPLc0_YZLbrjI5KE3fG_x-03pHXOgirGhtLz3sPP0oigdJpEidxZXq6Wv4AQBgAbausmUlNalxOsBoAYhqAemvhuoB9nLG6gHz8wbqAfs1RuoB8HTG9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_2NzeusyW48nrIx_aOPqj5YaDeO1A%2526client%253Dca-pub-1944435566807750%2526adurl%253D%26redirect%3D;dc_rfl=1,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Fbesiege$0;xdt=1;crlt=(-(cip3xip;cmpl=2;osda=2;sttr=7;prcl=s? (0)
+[0802/235704.204:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/235704.204:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/235705.056:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtsSAI7FnMWraPro1oa584fHsa&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0802/235711.426:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0802/235722.210:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0802/235722.839:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0802/235722.874:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/235722.876:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0802/235737.922:ERROR:browser_process_sub_thread.cc(221)] Waited 18 ms for network service
+[0803/001211.008:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/001211.008:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/001211.044:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/001212.018:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtuICAo8E38HgvCZJVA3WMSloo&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/001212.034:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtuIEGZjjgcvbYsr9jWQAx9yKj&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/001223.646:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/001223.666:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/001223.667:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/001224.390:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0803/001229.928:INFO:CONSOLE(0)] "Refused to execute script from 'https://tracker.samplicio.us/tracker/c866cdf0-102e-4506-b7d5-1f51128b98fd/pixel.gif?sid=4997780&pid=240847149&crid=116919630&device_id=AMsySZY0raLdeEE4VaQh9HurBUVP&c1=22355191&cachebuster=3208757184' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N916215.284566THETRADEDESK/B22355191.240847149;dc_ver=51.134;dc_eid=40004000;sz=320x50;osdl=1;u_sd=1;dc_adk=1633449854;ord=n1gmcj;click=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fttd_r%3D%26imp%3D5642fd1c-34f8-4083-9bc4-3579208d16d8%26ag%3D8ng6on2%26sfe%3Df7c97bc%26sig%3DKYi6dPfmDk5b5DzOwgLUk5zq4seL_961fO1GAS10uZQ.%26crid%3D3ahuyenn%26cf%3D749869%26fq%3D0%26td_s%3Dwww.vocabulary.com%26rcats%3D%26mcat%3Dgc_ogilvyus_iqvia_ebp%26mste%3D%26mfld%3D4%26mssi%3DNone%26mfsi%3D138chrvunb%26sv%3Dappnexus%26uhow%3D144%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DMissouri%26rgme%3D616%26rgci%3DKansas%2520City%26rgz%3D64114%26dt%3DPC%26osf%3DWindows%26os%3DWindows8%26br%3DChrome%26svpid%3D9361%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D22.03%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26c%3DOAE.%26dur%3DChoKB3Z6dmgxa3ciDwjBjbcBEgh0dGRhYnNlZwowCgxjaGFyZ2UtYWxsLTEiIAj___________8BEhN0dGRfZGF0YV9leGNsdXNpb25zCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlWaWV3YWJpbGl0eSIZCPD__________wESDGRvdWJsZXZlcmlmeQ..%26crrelr%3D%26npt%3D%26svscid%3D3454804%26mk%3DUnknown%26mdl%3DChrome%2520-%2520Windows%26adpt%3Danor%26ipl%3D13071954%26fpa%3D630%26pcm%3D3%26ict%3DUnknown%26said%3D8435310254965068543%26r%3D;dc_rfl=1,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Finchoate$0;xdt=0;crlt=zrkeOzijnw;cmpl=2;osda=2;sttr=93;prcl=s? (0)
+[0803/001234.972:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/001234.978:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/001234.980:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/001235.191:INFO:CONSOLE(147)] " [  0.001s] [studio.sdk] ", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/001236.194:INFO:CONSOLE(147)] " [  1.005s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/001301.611:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/001302.155:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002110.075:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002110.550:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002110.932:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtvNwc248wsAAfDa9eZIFG1r4t&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/002111.698:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/002112.263:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/002112.264:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/002112.657:INFO:CONSOLE(147)] " [  0.001s] [studio.sdk] ", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/002113.661:INFO:CONSOLE(147)] " [  1.004s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/002114.020:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002116.926:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002121.088:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/002121.090:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/002121.090:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/002121.091:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/002121.093:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/002121.098:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.198:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.199:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.199:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.205:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.271:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.271:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.271:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.272:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.326:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002121.328:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002123.069:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002126.832:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002129.810:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/002132.165:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/002132.165:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/002132.166:WARNING:stun_port.cc(444)] Port[692449c0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002132.166:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002132.264:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/002132.264:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/002132.264:WARNING:stun_port.cc(444)] Port[692449c0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002132.264:WARNING:stun_port.cc(444)] Port[692466f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002135.501:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/002135.502:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/002135.502:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/002135.503:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/002135.506:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/002135.510:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/002135.510:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/002135.510:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.510:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.510:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[3891af60:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[3891af60:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/002135.511:WARNING:stun_port.cc(444)] Port[38a9b280:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/002136.024:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0803/002140.585:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/002143.394:INFO:CONSOLE(10)] "Ignoring gdpr param, it should be 1 or 0", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002143.394:INFO:CONSOLE(10)] "Ignoring gdpr_consent param, it should be a non empty value", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002143.590:INFO:CONSOLE(10)] "Invoking iframe pixel user sync for bidder: "33across"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002145.371:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "rubicon"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002145.593:INFO:CONSOLE(10)] "Invoking iframe pixel user sync for bidder: "eplanning"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002146.147:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms2 (12)
+[0803/002146.574:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/002148.659:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "yieldmo"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002149.256:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "unruly"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002149.457:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "openx"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002149.655:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "adtelligent"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002150.227:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "conversant"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002150.788:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "consumable"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002151.275:INFO:CONSOLE(10)] "Invoking iframe pixel user sync for bidder: "advangelists"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/002200.857:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002200.955:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002200.955:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002200.955:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002200.961:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002201.030:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002201.030:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002201.030:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002201.083:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002201.083:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:50827 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002215.268:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49331 (any)
+[0803/002250.660:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/002250.691:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/002250.725:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/002250.776:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004306.417:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004307.236:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0803/004307.237:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.238:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.264:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.339:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.339:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.339:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.340:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004307.341:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004309.388:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=9084c550-b5b1-11e9-afe3-12718b16b4c2&v=120&nocr=1 (1)
+[0803/004309.460:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Oty3J1kZsE4hF0jHlTrD3vllsv&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/004309.467:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004309.469:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/004309.470:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/004309.471:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/004309.478:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/004309.554:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.610:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.626:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.626:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.626:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.627:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.743:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.743:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.743:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.743:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004309.743:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.144:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004311.145:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/004311.145:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/004311.146:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/004311.151:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/004311.158:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.158:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.158:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.158:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004311.159:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004312.747:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004312.799:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004320.579:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004320.579:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004320.579:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004320.579:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004320.579:WARNING:stun_port.cc(444)] Port[5d418f70:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.579:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.581:WARNING:stun_port.cc(444)] Port[72aead00:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.581:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.668:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004320.668:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004320.668:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004320.668:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004320.668:WARNING:stun_port.cc(444)] Port[72aead00:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.668:WARNING:stun_port.cc(444)] Port[5d418f70:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.668:WARNING:stun_port.cc(444)] Port[72aeba20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004320.668:WARNING:stun_port.cc(444)] Port[5d6f2f60:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004328.280:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004331.075:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004331.077:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/004331.077:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/004331.078:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/004331.079:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/004331.079:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/004331.079:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/004331.079:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/004331.079:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/004331.081:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.085:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.086:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.086:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.086:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.086:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004331.086:WARNING:stun_port.cc(444)] Port[af375970:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004337.407:ERROR:browser_process_sub_thread.cc(221)] Waited 23 ms for network service
+[0803/004406.580:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004406.630:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004407.206:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004407.984:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtyAwKeAQ4AYqh9dUSTCBDFNS0&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/004408.022:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0803/004408.023:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.023:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.051:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.125:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.125:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.125:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.126:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.126:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004408.343:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004408.345:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/004408.345:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/004408.345:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/004408.346:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/004408.346:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/004408.346:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/004408.346:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/004408.346:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/004408.374:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.381:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.445:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004408.491:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/004409.127:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=b4c1a826-b5b1-11e9-b94a-12c3e729c94e&v=120&nocr=1 (1)
+[0803/004418.012:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004418.045:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004418.097:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004418.401:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004418.420:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004418.421:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004419.474:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004419.474:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/004419.474:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004419.474:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/004419.474:WARNING:stun_port.cc(444)] Port[ca147610:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004419.475:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004419.475:WARNING:stun_port.cc(444)] Port[ca147610:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004419.475:WARNING:stun_port.cc(444)] Port[cca89d20:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/004425.191:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004430.994:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004434.068:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004443.101:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/004444.348:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004444.799:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004444.820:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004444.822:INFO:CONSOLE(32)] "a: 0.0009765625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.137:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.201:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004448.247:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:49533 (any)
+[0803/004449.426:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004449.436:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004449.438:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004452.046:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004452.047:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004452.063:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004455.699:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004455.705:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004455.707:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004456.279:INFO:CONSOLE(5)] "The devicemotion events are blocked by feature policy. See https://github.com/WICG/feature-policy/blob/master/features.md#sensor-features", source: https://secure-ds.serving-sys.com/BurstingCachedScripts/AdBuilderScripts/jquery.mobile-events.min.js (5)
+[0803/004458.304:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0803/004458.836:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004512.931:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004512.942:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004512.945:INFO:CONSOLE(32)] "a: 0.003173828125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004513.460:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0803/004516.286:INFO:CONSOLE(10)] "Ignoring gdpr param, it should be 1 or 0", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004516.286:INFO:CONSOLE(10)] "Ignoring gdpr_consent param, it should be a non empty value", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004516.483:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "unruly"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004516.787:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "brightroll"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004517.020:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "sonobi"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004517.580:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "sovrn"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004517.941:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "rubicon"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004518.153:INFO:CONSOLE(10)] "Invoking iframe pixel user sync for bidder: "advangelists"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004518.637:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "openx"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004519.426:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "grid"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004519.969:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "conversant"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004520.591:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "audienceNetwork"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/004536.308:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004542.278:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004542.340:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004559.069:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004606.693:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004607.242:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004607.244:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004611.537:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004614.085:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/021907231757120/amp4ads-v0.js (572)
+[0803/004614.830:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0803/004618.452:INFO:CONSOLE(24)] "Blocked a frame with origin "https://centralads.simpli.fi" from accessing a cross-origin frame.", source: https://choices.trustarc.com/ca?aid=simplifi01&pid=simplifi01&cid=0611sf728x90&w=728&h=90&c=cont1&js=pmw2 (24)
+[0803/004938.434:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 37
+[0803/004939.190:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004939.190:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004939.235:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/004939.867:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/004940.429:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004940.431:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/004940.461:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Otyqe5E2z9Zcm7cj0aCjutgOtW&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/004941.108:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/004941.160:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/005025.345:ERROR:browser_process_sub_thread.cc(221)] Waited 23 ms for network service
+[0803/005209.033:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005209.033:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005209.073:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005622.176:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005622.179:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005622.222:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005622.861:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/005623.313:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1OtzfKNzU14szNgigbAnWf3EvPL&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/005623.423:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/005623.425:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/005631.443:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/005631.444:INFO:CONSOLE(32)] "a: 0.0009765625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/005631.975:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0803/005636.847:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005637.368:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/005639.733:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/005639.734:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/005639.734:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/005639.735:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/005639.740:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/005639.828:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.866:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.867:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.901:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.901:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.901:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.967:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.969:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005639.977:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.022:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.024:WARNING:stun_port.cc(444)] Port[ecae9820:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.661:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/005640.663:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/005640.663:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/005640.664:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/005640.667:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/005640.671:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.671:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.671:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.671:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005640.672:WARNING:stun_port.cc(444)] Port[d9aee660:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.426:INFO:CONSOLE(1)] "Refused to execute inline script because it violates the following Content Security Policy directive: "script-src https://cdn.ampproject.org/". Either the 'unsafe-inline' keyword, a hash ('sha256-N1vBqICO3CogtDLyI+BumBsC/rnTT1WCYKpTdJXzUz8='), or a nonce ('nonce-...') is required to enable inline execution.
+", source: https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_2019073001.js (1)
+[0803/005642.428:INFO:CONSOLE(1)] "Refused to execute inline script because it violates the following Content Security Policy directive: "script-src https://cdn.ampproject.org/". Either the 'unsafe-inline' keyword, a hash ('sha256-KwdKu0vAbTKt3VT9pfAtp+cDVZNVtWg45zFIdLlAL7k='), or a nonce ('nonce-...') is required to enable inline execution.
+", source: https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_2019073001.js (1)
+[0803/005642.746:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/005642.747:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/005642.747:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/005642.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/005642.751:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005642.756:WARNING:stun_port.cc(444)] Port[681607e0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.520:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/005646.588:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/005646.590:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/005646.590:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/005646.591:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/005646.593:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.598:WARNING:stun_port.cc(444)] Port[b6620230:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/005646.603:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/005647.167:ERROR:browser_process_sub_thread.cc(221)] Waited 34 ms for network service
+[0803/010209.899:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/010209.899:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/010209.936:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/010209.937:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/010211.117:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou0N3xOcsir723jKYOWRSdccGN&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/010217.745:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/010217.748:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/010217.748:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/010217.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/010217.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/010217.748:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/010217.749:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/010217.749:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/010217.749:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/010217.751:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/010217.810:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.810:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.810:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.827:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.863:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.886:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.897:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.918:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.927:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010217.954:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010218.008:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.393:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/010222.396:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/010222.396:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/010222.397:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/010222.400:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/010222.404:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010222.405:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010225.108:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/010225.145:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/010225.146:INFO:CONSOLE(32)] "a: 0.001708984375ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/010226.466:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/010226.468:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/010226.468:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/010226.469:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/010226.472:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010226.478:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/010228.851:WARNING:stun_port.cc(444)] Port[fd6b17f0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.851:WARNING:stun_port.cc(444)] Port[98505380:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.852:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.852:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.853:WARNING:stun_port.cc(444)] Port[73f8a860:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.853:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.905:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.905:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.905:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.905:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.905:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.906:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[fd6b17f0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[73f8a860:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[fd6b2510:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[98505380:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[74195360:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010228.906:WARNING:stun_port.cc(444)] Port[985078a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/010257.565:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.565:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.565:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.583:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.619:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.643:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.654:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.676:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.714:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010257.766:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:53819 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.163:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010302.164:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:56064 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010306.233:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:58025 (any)
+[0803/010423.049:ERROR:browser_process_sub_thread.cc(221)] Waited 35 ms for network service
+[0803/011641.172:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/011641.172:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/011641.214:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/011641.217:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/011642.228:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou28T5EqfHVaqbKcKYb91F7ce7&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/011651.478:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/011651.499:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/011651.500:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/011651.818:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/011652.021:INFO:CONSOLE(147)] " [  0.000s] [studio.sdk] ", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/011653.028:INFO:CONSOLE(147)] " [  1.006s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/011702.615:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/011702.617:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/011702.617:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/011702.618:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/011702.620:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/011702.624:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.624:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.683:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.684:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.685:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.701:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.735:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.746:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.766:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.792:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011702.810:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/011703.231:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/011703.297:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/011713.719:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/011713.719:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/011713.720:WARNING:stun_port.cc(444)] Port[7350a830:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/011713.720:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/011713.721:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/011713.721:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/011713.721:WARNING:stun_port.cc(444)] Port[7350a830:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/011713.721:WARNING:stun_port.cc(444)] Port[7375c800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/011714.805:INFO:CONSOLE(0)] "Refused to execute script from 'https://tracker.samplicio.us/tracker/c866cdf0-102e-4506-b7d5-1f51128b98fd/pixel.gif?sid=4997780&pid=240846834&crid=116919474&device_id=AMsySZYRCVkbC_7O-3qng6tS5u_6&c1=22355191&cachebuster=3477239023' because its MIME type ('image/gif') is not executable.", source: https://ad.doubleclick.net/ddm/adi/N916215.284566THETRADEDESK/B22355191.240846834;dc_ver=51.134;dc_eid=40004000;sz=728x90;osdl=1;u_sd=1;dc_adk=1633449853;ord=p5fzh2;click=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3D0d4e28ad-ecb6-432b-8da8-9cf6c10cd9ac%26ag%3D8ng6on2%26sfe%3Df7ca6e9%26sig%3D5Q9gYzRF-wQyMHgwwDH8u1pbCQWtnjJdj_mwGcr6O-k.%26crid%3D9djetw37%26cf%3D749869%26fq%3D0%26td_s%3Dwww.vocabulary.com%26rcats%3D3oc%26mcat%3Dgc_ogilvyus_iqvia_ebp%26mste%3D%26mfld%3D4%26mssi%3DNone%26mfsi%3D138chrvunb%26sv%3Dopenx%26uhow%3D145%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DMissouri%26rgme%3D616%26rgci%3DKansas%2520City%26rgz%3D64114%26dt%3DPC%26osf%3DWindows%26os%3DWindows8%26br%3DChrome%26svpid%3D539954800%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D21.46%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26c%3DOAE.%26dur%3DChoKB3Z6dmgxa3ciDwjBjbcBEgh0dGRhYnNlZwowCgxjaGFyZ2UtYWxsLTEiIAj___________8BEhN0dGRfZGF0YV9leGNsdXNpb25zCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlWaWV3YWJpbGl0eSIZCPD__________wESDGRvdWJsZXZlcmlmeQ..%26crrelr%3D%26npt%3D%26svscid%3D539955325%26mk%3Ddesktop%26mdl%3DChrome%2520-%2520Windows%26adpt%3Dnopx%26ipl%3DJTJGMTU2NjU1MDMlMkZEaWN0aW9uYXJ5LVRvcC1CYW5uZXJ3d3cudm9jYWJ1bGFyeS5jb20%26fpa%3D827%26pcm%3D3%26ict%3DUnknown%26said%3Db96604e9-6015-4b69-a767-23cb2fb3413a%26r%3D;dc_rfl=1,https%3A%2F%2Fwww.vocabulary.com%2Fdictionary%2Finchoate$0;xdt=0;crlt=omr5jMpN5t;cmpl=2;osda=2;sttr=77;prcl=s? (0)
+[0803/011728.998:ERROR:browser_process_sub_thread.cc(221)] Waited 31 ms for network service
+[0803/012059.662:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012059.694:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012100.824:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012100.824:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012100.868:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012100.878:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012101.886:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou2fCLx9UwowDmDsfS26CVU5Zk&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/012104.754:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012104.932:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012104.961:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012104.995:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012105.046:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/012711.484:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012711.485:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012711.523:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/012712.822:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou3Po5qyZDAEzlaifYJRIWZnJO&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/014317.806:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+[0803/015028.071:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015028.072:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015029.422:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou6FBCddHg4Ur5lDW3Z535Lqq8&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/015029.423:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou6FFNvwa2RXC8CiRYo8D8mGXq&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/015307.726:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015307.726:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015309.003:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou6ZIJacIFxfCCgx2VgeK3JGis&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/015317.372:INFO:CONSOLE(1)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (1)
+[0803/015323.983:INFO:CONSOLE(1)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (1)
+[0803/015333.682:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015337.696:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/015344.285:INFO:CONSOLE(10)] "Ignoring gdpr param, it should be 1 or 0", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015344.285:INFO:CONSOLE(10)] "Ignoring gdpr_consent param, it should be a non empty value", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015345.083:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "ix"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015345.671:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "unruly"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015345.838:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "somoaudience"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015346.275:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0803/015346.459:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "adform"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015346.771:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "sonobi"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015347.384:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "grid"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015347.962:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "brightroll"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015348.181:INFO:CONSOLE(10)] "Invoking iframe pixel user sync for bidder: "emx_digital"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015351.464:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "rhythmone"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015352.538:INFO:CONSOLE(10)] "Invoking image pixel user sync for bidder: "consumable"", source: https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=10 (10)
+[0803/015820.147:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015849.753:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015849.754:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/015850.632:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou7GCvMBfqaB2pIwpHKE1rwQbD&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/015850.633:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou7GNK7je4tk8V6qnUyTykbt2R&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/015850.703:INFO:CONSOLE(709)] "unable to open database, failed to create 'info' table (14 unable to open database file)", source: https://translate.google.com/translate/releases/twsfe_w_20190708_RC03/r/js/translate_m.js (709)
+[0803/020212.239:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020212.291:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020212.781:INFO:CONSOLE(709)] "unable to open database, failed to create 'info' table (14 unable to open database file)", source: https://translate.google.com/translate/releases/twsfe_w_20190708_RC03/r/js/translate_m.js (709)
+[0803/020213.913:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou7fnnrRK96UvTseuRb2GoNkqg&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/020214.756:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou7foD2hNqeAl9dEjjT3QPM8or&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/020355.839:INFO:CONSOLE(709)] "unable to open database, failed to create 'info' table (14 unable to open database file)", source: https://translate.google.com/translate/releases/twsfe_w_20190708_RC03/r/js/translate_m.js (709)
+[0803/020356.683:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 41
+[0803/020356.684:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 45
+[0803/020357.527:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020357.561:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020358.585:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou7stajs2VA5AnB9CwN7ECYzj8&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/020432.318:ERROR:browser_process_sub_thread.cc(221)] Waited 37 ms for network service
+[0803/020855.430:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020855.430:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020855.548:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020855.591:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020856.903:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou8UR6oGgTGUl20wLNntJyMcTg&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/020857.848:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020857.880:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020857.930:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020905.045:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/020905.159:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/020905.159:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/020906.171:INFO:CONSOLE(147)] " [  0.000s] [studio.sdk] ", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/020907.184:INFO:CONSOLE(147)] " [  1.013s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.", source: https://s0.2mdn.net/ads/studio/Enabler.js (147)
+[0803/020932.085:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/020934.714:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020934.766:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020944.647:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020944.678:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020944.711:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020944.764:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/020945.031:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021055.085:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021055.171:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021055.740:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/021055.751:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/021056.383:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021056.390:INFO:CONSOLE(32)] "a: 0.00732421875ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021056.391:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021056.402:INFO:CONSOLE(32)] "a: 0.01220703125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021056.475:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou8jSV239RatcoNhcGGg72Oa8S&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/021056.571:INFO:CONSOLE(986)] "Uncaught TypeError: Cannot read property 'contentDocument' of undefined", source: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/268184/35327127/dcm/dcmads.js?ias_pb_click=https://adclick.g.doubleclick.net/aclk%3Fsa%3Dl%26ai%3DCaFjgfjNFXfDCDcGNgwadv6zoCe_26OBXzsK6174J0b_18fQPEAEgr46MIWDJhoCA-COgAfr2r-wCyAEJ4AIAqAMBqgTZAU_QJk7t0NPeACR5dVh1USASUIbINoSCC9ALrrMw6o5dcid_jX7TyEKMy8hqV9N9fsaPUVvp4e3QDJtUOBPATUWIF03ZsEa86IhgO66gqVgqr6MtaG-9SI0JAzYxCCEePQYLtVjMbtw92QCH6J8-KF5kENL70SMnx3_K-hLbww8bbSenZYKCXkQp60h8rB57XfmyAAWqFYgGcDGpbW7I9GmylfyMMp74J5BS5aiCYEOmg9uIMNSZV22Z7vdFT9_ega4KRQPv3v_5eNtr3QS5b5Y__k2leO0JOrrgBAGgBhGAB9KOkZoBqAeOzhuoB9XJG6gHwdMbqAeF1BuoB4HUG6gHgtQbqAeG1BuoB4TUG6gHk9gbqAfg0xuoB7oGqAfZyxuoB8_MG6gHpr4bqAfz0RuoB-zVG9gHANIIBwiAYRABGA2ACgPYEwI%26num%3D1%26sig%3DAOD64_2XzAuTCOm5VvwzeJB-ZfSQNjDNdw%26client%3Dca-pub-1944435566807750%26adurl%3D (986)
+[0803/021057.084:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Ou8jSLKK3k6CcNEzget0DJinzi&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0803/021058.128:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021058.417:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021059.242:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021059.262:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021059.308:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.345:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.359:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.377:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.389:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.406:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021100.456:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021224.557:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021224.631:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021225.048:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/021225.083:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021225.085:INFO:CONSOLE(32)] "a: 0.002685546875ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0803/021225.908:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0803/021231.583:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/021232.606:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/021232.632:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/022311.143:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/022311.206:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/022311.264:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/022342.469:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0803/022342.472:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0803/022342.472:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0803/022342.473:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0803/022342.473:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0803/022342.474:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0803/022342.474:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0803/022342.474:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0803/022342.474:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0803/022342.478:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.290-3c57f72/pixel.js (4)
+[0803/022342.485:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.541:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.541:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.558:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.558:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.596:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.596:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.614:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.651:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.660:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022342.721:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0803/022353.580:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/022353.580:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0803/022353.580:WARNING:stun_port.cc(444)] Port[a12765f0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/022353.581:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/022353.639:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/022353.639:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0803/022353.639:WARNING:stun_port.cc(444)] Port[a12765f0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/022353.639:WARNING:stun_port.cc(444)] Port[a13c09f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0803/022357.293:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/022357.351:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0803/022357.406:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0803/022400.541:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0803/022422.243:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.298:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.303:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.315:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.315:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.351:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.351:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.372:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.405:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.418:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022422.479:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63951 (any)
+[0803/022454.807:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 7
