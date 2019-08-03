@@ -112,26 +112,9 @@
                         <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Select a  vocabulary collection</TextBlock>
                         <ComboBox Name="vocabListComboBox" Margin="0,10,0,0" ItemsSource="{Binding}" DisplayMemberPath="VocabListName" SelectedValuePath="VocabListId" SelectedValue="1"/>
                     </StackPanel>
-                    <StackPanel>
-                        <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="right" VerticalAlignment="Center" TextWrapping="Wrap">Categorize Capricious</TextBlock>
-                        <WrapPanel Style="{StaticResource buttonsRight}">
-                            <Button ToolTip ="Needs Reviewing" Width="50" Height="40">
-                            <StackPanel Orientation="Horizontal">
-                                <Image Source="/GRE_Vocabs;component/Images\review.png" />
-                            </StackPanel>
-                            </Button>
-                            <Button ToolTip ="Flagged" Width="50" Height="40">
-                                <StackPanel Orientation="Horizontal">
-                                    <Image Source="/GRE_Vocabs;component/Images\flagged.png"/>
-                                </StackPanel>
-                            </Button>
-                            <Button ToolTip ="Mastered" Width="50" Height="40">
-                                <StackPanel Orientation="Horizontal">
-                                    <Image Source="/GRE_Vocabs;component/Images\mastered.png"/>
-                                </StackPanel>
-                            </Button>
-                        </WrapPanel>
-                    </StackPanel>
+                    <WrapPanel Style="{StaticResource buttonsRight}">
+                        <Button x:Name="testMode" Margin="5,0" >Test Mode</Button>
+                    </WrapPanel>
                 </DockPanel>
             </Border>
 
@@ -157,36 +140,36 @@
                     <ListView.ItemContainerStyle>
                         <Style TargetType="{x:Type ListViewItem}">
                             <Style.Triggers>
-                                <Trigger Property="IsSelected" Value="true">
-                                    <Setter Property="Foreground" Value="White" />
+                                <Trigger Property="IsSelected"  Value="true">
+                                    <Setter Property="Foreground" Value="white" />
                                     <Setter Property="Background" Value="#264765" />
                                 </Trigger>
                             </Style.Triggers>
                         </Style>
                     </ListView.ItemContainerStyle>
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <WrapPanel>
-                                <TextBlock Text="{Binding Word}" FontWeight="Bold" Padding="3"/>
-                                <Button ToolTip ="Needs Reviewing" Width="35" Height="30" HorizontalAlignment="right">
-                                    <Image Source="/GRE_Vocabs;component/Images\review.png"/>
-                                </Button>
-                                <Button ToolTip ="Flagged" Width="35" Height="30" HorizontalAlignment="Right">
-                                    <Image Source="/GRE_Vocabs;component/Images\flagged.png"/>
-                                </Button>
-                                <Button ToolTip ="Mastered" Width="35" Height="30" HorizontalAlignment="Right">
-                                    <Image Source="/GRE_Vocabs;component/Images\mastered.png"/>
-                                </Button>
-
-                            </WrapPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                    <!--<ListView.View>
+                    <ListView.View>
                         <GridView>
-                            <GridViewColumn  Header="Words" Width="200" DisplayMemberBinding="{Binding Word}" />
-                    
+                            <GridViewColumn Header="Words" Width="185" DisplayMemberBinding="{Binding Word}" />
+                            <GridViewColumn Header="Actions">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button ToolTip ="Needs Reviewing" Width="35" Height="30" >
+                                                <Image Source="/GRE_Vocabs;component/Images\review.png"/>
+                                            </Button>
+                                            <Button ToolTip ="Flagged" Width="35" Height="30">
+                                                <Image Source="/GRE_Vocabs;component/Images\flagged.png"/>
+                                            </Button>
+                                            <Button ToolTip ="Mastered" Width="35" Height="30">
+                                                <Image Source="/GRE_Vocabs;component/Images\mastered.png"/>
+                                            </Button>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
                         </GridView>
-                    </ListView.View>-->
+                    </ListView.View>
                 </ListView>
             </Border>
             <Border Grid.Row="3" Grid.Column="2">
