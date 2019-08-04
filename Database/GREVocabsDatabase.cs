@@ -43,6 +43,11 @@ namespace GRE_Vocabs.Database
             sqlite_cmd.CommandText = createWords;
             sqlite_cmd.ExecuteNonQuery();
 
+            //Creates table QuestionsBank
+            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS Words(QuestionID INT PRIMARY KEY NOT NULL, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked REAL NULL, Accuracy REAL Null)";
+            sqlite_cmd.CommandText = createQuestionsBank;
+            sqlite_cmd.ExecuteNonQuery();
+
             //Insert Data On VocabList table
             sqlite_cmd.CommandText = "INSERT OR REPLACE INTO VocabList (VocabListId, VocabListName) VALUES (1, 'Manhattan Prep 3rd Edition');" +
                                      "INSERT OR REPLACE INTO VocabList(VocabListId, VocabListName) VALUES(2, 'ETS GRE Official Guide 3rd Edition');" +
@@ -56,7 +61,7 @@ namespace GRE_Vocabs.Database
 
             sqlite_cmd.CommandText = "INSERT OR REPLACE INTO Words(WordId, Word, WordStatus, VocabListId) VALUES (10001, 'SARTORIAL' , 'Learning',  2);" +
                                      "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(10002, 'EXOTIC','Learning',  2);" +
-                                     "INSERT OR REPLACE INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(10003, 'DOGMATISM','Learning',  2);";
+                                     "INSERT OR REPLACE  INTO Words (WordId, Word, WordStatus, VocabListId) VALUES(10003, 'DOGMATISM','Learning',  2);";
             sqlite_cmd.ExecuteNonQuery();
 
             dbConnection.Close();
