@@ -23,5 +23,43 @@ namespace GRE_Vocabs
         {
             InitializeComponent();
         }
+
+        private void AddQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            var ques = question.Text;
+            if(ques == "")
+            {
+                MessageBox.Show("Question textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+            var opt1 = option1.Text;
+            if(opt1 == "")
+            {
+                MessageBox.Show("Option1 textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+            var opt2 = option2.Text;
+            if(opt2 == "")
+            {
+                MessageBox.Show("option2 textbox can not be empty!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+            var opt3 = option3.Text;
+            if(opt2 == "")
+            {
+                MessageBox.Show("Option3 textbox can not be empty!.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+            var opt4 = option4.Text;
+            if(opt4 == "")
+            {
+                MessageBox.Show("Option4 textbox can not be empty!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+            var ans = answer.SelectedItem.ToString();
+           
+
+
+        }
     }
 }

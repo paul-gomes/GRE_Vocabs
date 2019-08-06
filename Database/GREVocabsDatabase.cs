@@ -44,7 +44,7 @@ namespace GRE_Vocabs.Database
             sqlite_cmd.ExecuteNonQuery();
 
             //Creates table QuestionsBank
-            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS Words(QuestionID INT PRIMARY KEY NOT NULL, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked REAL NULL, Accuracy REAL Null)";
+            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS QuestionsBank(QuestionID INT PRIMARY KEY NOT NULL, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked INT NULL, Accuracy REAL Null)";
             sqlite_cmd.CommandText = createQuestionsBank;
             sqlite_cmd.ExecuteNonQuery();
 
@@ -123,6 +123,18 @@ namespace GRE_Vocabs.Database
             sqlite_cmd.CommandText = String.Format("UPDATE Words SET WordStatus = '{0}' WHERE WordId = {1}; ", wordStatus, wordId);
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
+        }
+
+
+        //Adds a question to the QuestionBank table
+        public void submitQuestion(QuestionsBank question)
+        {
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ({0},{1},{2},{3},{4},{5});", question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer );
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            dbConnection.Close();
+
         }
     }
 }

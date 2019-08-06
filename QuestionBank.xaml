@@ -165,7 +165,7 @@
                             </StackPanel>
                         </Border>
                         <Border Grid.Row="3" Grid.Column="1" Margin="10" HorizontalAlignment="Right">
-                            <Button Margin="5,0">Add To The Question Bank</Button>
+                            <Button x:Name="addQuestion" Margin="5,0" Cursor="Hand" Click="AddQuestion_Click">Add To The Question Bank</Button>
                         </Border>
                     </Grid>
                 </TabItem>

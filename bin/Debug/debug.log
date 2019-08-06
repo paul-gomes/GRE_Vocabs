@@ -2481,3 +2481,11 @@
 [0804/124452.840:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
 [0804/124452.847:INFO:CONSOLE(32)] "a: 0.016357421875ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
 [0804/124454.828:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+[0806/093739.810:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0806/093740.123:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0806/093740.150:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0806/093740.185:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1P3UQlT2ochAHU4LNpKqmxSZJdJ&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0806/093740.195:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-7bgudj.js (1)
+[0806/093740.212:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1P3UQnZmoAHN5AMGHG45YtYGoDy&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0806/093854.057:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
+[0806/093854.057:INFO:CONSOLE(572)] "Powered by AMP ⚡ HTML – Version 1907231757120", source: https://cdn.ampproject.org/rtv/011907231757120/amp4ads-v0.js (572)
