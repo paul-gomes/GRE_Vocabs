@@ -37,6 +37,7 @@ namespace GRE_Vocabs
 
         private void AddQuestion_Click(object sender, RoutedEventArgs e)
         {
+            var quesId = questionId.Text;
             var ques = question.Text;
             var opt1 = option1.Text;
             var opt2 = option2.Text;
@@ -87,25 +88,124 @@ namespace GRE_Vocabs
                     MessageBox.Show("Select the correct answer for this question!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
                     
                 }
-                QuestionsBank quesBank = new QuestionsBank();
-                quesBank.Question = ques;
-                quesBank.Option1 = opt1;
-                quesBank.Option2 = opt2;
-                quesBank.Option3 = opt3;
-                quesBank.Option4 = opt4;
-                quesBank.Answer = ans;
-                greDatabase.submitQuestion(quesBank);
-                BindQuestionGrid(questionListView);
-                MessageBox.Show("Successfully added to the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
-                question.Text = "";
-                option1.Text = "";
-                option2.Text = "";
-                option3.Text = "";
-                option4.Text = "";
-
-
+                if (MessageBox.Show("Have you selected the right answer for this question?", "GRE Vocabulary List", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+                {
+                    if (quesId == "")
+                    {
+                        QuestionsBank quesBank = new QuestionsBank();
+                        quesBank.Question = ques;
+                        quesBank.Option1 = opt1;
+                        quesBank.Option2 = opt2;
+                        quesBank.Option3 = opt3;
+                        quesBank.Option4 = opt4;
+                        quesBank.Answer = ans;
+                        greDatabase.SubmitQuestion(quesBank);
+                        BindQuestionGrid(questionListView);
+                        MessageBox.Show("Successfully added to the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                        question.Text = "";
+                        option1.Text = "";
+                        option2.Text = "";
+                        option3.Text = "";
+                        option4.Text = "";
+                        answer.SelectedIndex = 0;
+                    }
+                    else
+                    {
+                        QuestionsBank quesBank = new QuestionsBank();
+                        quesBank.QuestionID = Convert.ToInt32(quesId);
+                        quesBank.Question = ques;
+                        quesBank.Option1 = opt1;
+                        quesBank.Option2 = opt2;
+                        quesBank.Option3 = opt3;
+                        quesBank.Option4 = opt4;
+                        quesBank.Answer = ans;
+                        greDatabase.UpdateQuestion(quesBank);
+                        BindQuestionGrid(questionListView);
+                        MessageBox.Show("Successfully updated to the question bank!", "QuestionBank", MessageBoxButton.OK, MessageBoxImage.Information);
+                        question.Text = "";
+                        option1.Text = "";
+                        option2.Text = "";
+                        option3.Text = "";
+                        option4.Text = "";
+                        answer.SelectedIndex = 0;
+                        questionTabView.SelectedIndex = 1;
+                        addQuestion.Content = "Add To The Question Bank";
+                        cancel.Visibility = Visibility.Hidden;
+                    }
+                }
+                else
+                {
+                }
             }
 
+        }
+
+        //Deltes question from the db
+        private void DeleteQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to delete the record?", "GRE Vocabulary List", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+            {
+                var item = (sender as Button).DataContext;
+                QuestionsBank quesBank = (QuestionsBank)item;
+                int quesId = quesBank.QuestionID;
+                greDatabase.DeleteQuestion(quesId);
+                BindQuestionGrid(questionListView);
+                MessageBox.Show("Successfully deleted from the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                //do yes stuff
+            }
+
+
+
+
+        }
+
+        private void EditQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            var item = (sender as Button).DataContext;
+            QuestionsBank quesBank = (QuestionsBank)item;
+            questionId.Text = quesBank.QuestionID.ToString();
+            question.Text = quesBank.Question;
+            option1.Text = quesBank.Option1;
+            option2.Text = quesBank.Option2;
+            option3.Text = quesBank.Option3;
+            option4.Text = quesBank.Option4;
+            if(quesBank.Option1 == quesBank.Answer)
+            {
+                answer.SelectedValue = "Option1";
+            }
+            else if (quesBank.Option2 == quesBank.Answer)
+            {
+                answer.SelectedValue = "Option2";
+            }
+            else if (quesBank.Option3 == quesBank.Answer)
+            {
+                answer.SelectedValue = "Option3";
+            }
+            else if (quesBank.Option4 == quesBank.Answer)
+            {
+                answer.SelectedValue = "Option4";
+            }
+            questionTabView.SelectedIndex = 0;
+            addQuestion.Content = "Update question";
+            cancel.Visibility = Visibility.Visible;
+
+
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            question.Text = "";
+            option1.Text = "";
+            option2.Text = "";
+            option3.Text = "";
+            option4.Text = "";
+            answer.SelectedIndex = 0;
+            questionTabView.SelectedIndex = 1;
+            addQuestion.Content = "Add To The Question Bank";
+            cancel.Visibility = Visibility.Hidden;
         }
     }
 }

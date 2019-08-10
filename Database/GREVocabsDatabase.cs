@@ -131,15 +131,28 @@ namespace GRE_Vocabs.Database
 
 
         //Adds a question to the QuestionBank table
-        public void submitQuestion(QuestionsBank question)
+        public void SubmitQuestion(QuestionsBank question)
         {
             dbConnection.Open();
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
-            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionsBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}');",question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer );
+            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionsBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}');", question.Question, question.Option1, question.Option2, question.Option3, question.Option4, question.Answer);
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
 
         }
+
+        //Updates question
+        public void UpdateQuestion(QuestionsBank question)
+        {
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("UPDATE QuestionsBank SET Question='{0}', Option1='{1}', Option2='{2}', Option3='{3}', Option4='{4}', Answer='{5}' WHERE QuestionID = {6};", question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer, question.QuestionID);
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            dbConnection.Close();
+
+        }
+
+
 
         //Gets all the questions
         public List<QuestionsBank> GetQuestions()
@@ -169,6 +182,16 @@ namespace GRE_Vocabs.Database
 
             dbConnection.Close();
             return data;
+        }
+
+        //Deletes a question
+        public void DeleteQuestion(int questionId)
+        {
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("DELETE FROM QuestionsBank WHERE QuestionID = {0};", questionId);
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            dbConnection.Close();
         }
     }
 }
