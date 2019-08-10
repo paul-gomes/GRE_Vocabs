@@ -117,7 +117,7 @@
                         <ComboBox x:Name="vocabListComboBox" Margin="0,10,0,0" ItemsSource="{Binding}" DisplayMemberPath="VocabListName" SelectedValuePath="VocabListId" SelectedValue="1" SelectionChanged="VocabListComboBox_SelectionChanged" Cursor="Hand"/>
                     </StackPanel>
                     <WrapPanel Style="{StaticResource buttonsRight}">
-                        <Button x:Name="testMode" Margin="5,0" Content="Test Mode" Cursor="Hand" />
+                        <Button x:Name="testMode" Margin="5,0" Content="Test Mode" Cursor="Hand" Click="TestMode_Click" />
                     </WrapPanel>
                 </DockPanel>
             </Border>

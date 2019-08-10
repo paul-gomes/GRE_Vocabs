@@ -110,3 +110,5 @@ C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\bin\Debug\System.Data.SQLite.Lin
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\QuestionBank.g.cs
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\QuestionBank.baml
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestMode.g.cs
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestMode.baml

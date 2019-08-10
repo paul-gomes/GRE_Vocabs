@@ -101,6 +101,9 @@
     <Compile Include="QuestionBank.xaml.cs">
       <DependentUpon>QuestionBank.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TestMode.xaml.cs">
+      <DependentUpon>TestMode.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -115,6 +118,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="QuestionBank.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestMode.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

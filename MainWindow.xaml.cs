@@ -94,11 +94,7 @@ namespace GRE_Vocabs
             }
 
         }
-        private void QuestionBank_Click(object sender, RoutedEventArgs e)
-        {
-            QuestionBank qbWindow = new QuestionBank();
-            qbWindow.Show();
-        }
+
 
         private void ClassifyReview_Click(object sender, RoutedEventArgs e)
         {
@@ -315,6 +311,20 @@ namespace GRE_Vocabs
 
             // Add it to the form and fill it to the form window.
             vocabView.Children.Add(chromeBrowser);
+
+        }
+
+
+        private void QuestionBank_Click(object sender, RoutedEventArgs e)
+        {
+            QuestionBank qbWindow = new QuestionBank();
+            qbWindow.Show();
+        }
+
+        private void TestMode_Click(object sender, RoutedEventArgs e)
+        {
+            TestMode tmWindow = new TestMode();
+            tmWindow.Show();
 
         }
     }
