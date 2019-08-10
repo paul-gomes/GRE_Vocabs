@@ -135,7 +135,7 @@
                         <Border Grid.Row="2" Grid.Column="0" Margin="10">
                             <StackPanel>
                                 <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"> Correct Answer</TextBlock>
-                                <ComboBox Name="answer" FontFamily="Open Sans"  FontSize="15" Margin="10" Height="40" Width="200" >
+                                <ComboBox Name="answer" SelectedValuePath="Content" FontFamily="Open Sans"  FontSize="15" Margin="10" Height="40" Width="200" >
                                     <ComboBoxItem IsSelected="True">Option1</ComboBoxItem>
                                     <ComboBoxItem >Option2</ComboBoxItem>
                                     <ComboBoxItem>Option3</ComboBoxItem>
@@ -175,7 +175,30 @@
                             <TextBlock Text="Question" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
                         </StackPanel>
                     </TabItem.Header>
+
+                    <ListView Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="{x:Type ListViewItem}">
+                                <Style.Triggers>
+                                    <Trigger Property="Selector.IsSelected"  Value="true">
+                                        <Setter Property="Foreground" Value="white" />
+                                        <Setter Property="Background" Value="#264765" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Question" Width="500" DisplayMemberBinding="{Binding Question}"/>
+                                <GridViewColumn Header="Answer" Width="100" DisplayMemberBinding="{Binding Answer}"/>
+                                <GridViewColumn Header="Appeared in Test" Width="130" DisplayMemberBinding="{Binding NumberOfTimeAsked}"/>
+                                <GridViewColumn Header="Accuracy(%)" Width="100" DisplayMemberBinding="{Binding Accuracy}"/>
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
                 </TabItem>
+
             </TabControl>
 
 

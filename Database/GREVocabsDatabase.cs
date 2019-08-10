@@ -43,8 +43,12 @@ namespace GRE_Vocabs.Database
             sqlite_cmd.CommandText = createWords;
             sqlite_cmd.ExecuteNonQuery();
 
+            //string delete = "DROP TABLE QuestionsBank";
+            //sqlite_cmd.CommandText = delete;
+            //sqlite_cmd.ExecuteNonQuery();
+
             //Creates table QuestionsBank
-            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS QuestionsBank(QuestionID INT PRIMARY KEY NOT NULL, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked INT NULL, Accuracy REAL Null)";
+            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS QuestionsBank(QuestionID INTEGER PRIMARY KEY, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked INT NULL, Accuracy REAL Null)";
             sqlite_cmd.CommandText = createQuestionsBank;
             sqlite_cmd.ExecuteNonQuery();
 
@@ -131,10 +135,40 @@ namespace GRE_Vocabs.Database
         {
             dbConnection.Open();
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
-            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ({0},{1},{2},{3},{4},{5});", question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer );
+            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionsBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}');",question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer );
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
 
+        }
+
+        //Gets all the questions
+        public List<QuestionsBank> GetQuestions()
+        {
+            List<QuestionsBank> data = new List<QuestionsBank>();
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("SELECT * FROM QuestionsBank");
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    QuestionsBank quesitons = new QuestionsBank();
+                    quesitons.QuestionID = Convert.ToInt32(reader.GetValue(0));
+                    quesitons.Question = reader.GetString(1);
+                    quesitons.Option1 = reader.GetString(2);
+                    quesitons.Option2 = reader.GetString(3);
+                    quesitons.Option3 = reader.GetString(4);
+                    quesitons.Option4= reader.GetString(5);
+                    quesitons.Answer = reader.GetString(6);
+                    quesitons.NumberOfTimeAsked = Convert.IsDBNull(reader.GetValue(7)) ? 0 : Convert.ToInt32(reader.GetValue(7));
+                    quesitons.Accuracy = Convert.IsDBNull(reader.GetValue(8)) ? 0 : Convert.ToDecimal(reader.GetValue(8));
+                    data.Add(quesitons);
+                }
+            }
+
+            dbConnection.Close();
+            return data;
         }
     }
 }
