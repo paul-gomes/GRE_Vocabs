@@ -318,3 +318,420 @@
 [0810/040557.231:INFO:CONSOLE(32)] "a: 0.009033203125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
 [0810/042654.175:ERROR:browser_process_sub_thread.cc(221)] Waited 81 ms for network service
 [0810/042857.252:ERROR:browser_process_sub_thread.cc(221)] Waited 79 ms for network service
+[0810/054443.976:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054444.536:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054445.773:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'parentNode' of null", source: about:blank (1)
+[0810/054445.773:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'parentNode' of null", source: about:blank (1)
+[0810/054448.978:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054449.539:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054453.981:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054454.542:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054458.985:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054459.547:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054501.476:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054501.476:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054503.988:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054504.551:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054506.480:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054506.481:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054508.990:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054509.554:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054511.485:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054511.486:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054513.994:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054514.556:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054516.490:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054516.491:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054518.996:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054519.559:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054521.493:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054521.494:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054523.999:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054524.562:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054526.498:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054526.498:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054529.002:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054529.566:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054531.500:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054531.501:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054534.005:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054534.568:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054536.503:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054536.505:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054539.007:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054539.571:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054541.507:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054541.510:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054544.010:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054544.574:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054546.511:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054546.512:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054549.012:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054549.577:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054551.513:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054551.516:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054554.016:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054554.580:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054556.516:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054556.519:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054559.018:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054559.583:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054601.518:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054601.522:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054604.022:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054604.586:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054606.522:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054606.526:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054609.024:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054609.589:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054611.525:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054611.530:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054614.029:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054614.592:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054616.529:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054616.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054619.032:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054619.595:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054621.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054621.535:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054624.034:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054624.599:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054626.536:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054626.539:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054629.038:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054629.601:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054631.538:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054631.541:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054634.039:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054634.605:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054636.541:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054636.544:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054639.043:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054639.608:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054641.543:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054641.546:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054644.045:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054644.610:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054646.547:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054646.551:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054649.050:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054649.613:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054651.551:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054651.554:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054654.052:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054654.616:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054656.556:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054656.559:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054659.056:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054659.618:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054701.559:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054701.561:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054704.058:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054704.622:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054706.562:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054706.565:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054709.061:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054709.625:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054711.566:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054711.569:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054714.064:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054714.627:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054716.569:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054716.573:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054719.067:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054719.630:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054721.574:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054721.576:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054724.070:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054724.633:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054726.577:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054726.580:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054729.073:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054729.635:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054731.581:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054731.583:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054734.075:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054734.638:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054736.584:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054736.586:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054739.079:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054739.642:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054741.587:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054741.590:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054744.082:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054744.646:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054746.590:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054746.592:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054749.086:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054749.649:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054751.593:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054751.594:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054754.088:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054754.652:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054756.597:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054756.598:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054759.092:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054759.654:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054801.601:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054801.602:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054804.094:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054804.657:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054806.605:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054806.605:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054809.098:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054809.659:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054811.608:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054811.609:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054814.101:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054814.662:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054816.611:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054816.613:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054819.104:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054819.665:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054821.616:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054821.616:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054824.107:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054824.669:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054826.620:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054826.620:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054829.109:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054829.671:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054831.622:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054831.622:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054834.112:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054834.674:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054836.624:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054836.624:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054839.115:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054839.676:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054841.627:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054841.629:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054844.120:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054844.679:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054846.629:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054846.630:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054849.122:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054849.682:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054851.631:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054851.633:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054854.125:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054854.684:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054856.634:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054856.636:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054859.128:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054859.686:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054901.477:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054901.477:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054901.638:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054901.640:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054904.131:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054904.689:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054906.482:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054906.482:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054906.641:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054906.643:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054909.133:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054909.692:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054911.487:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054911.487:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054911.643:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054911.645:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054914.137:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054914.695:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054916.491:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054916.491:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054916.646:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054916.648:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054919.140:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054919.697:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054921.496:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054921.496:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054921.650:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054921.651:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054924.141:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054924.700:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054926.499:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054926.499:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054926.653:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054926.655:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054929.146:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054929.702:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054931.502:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054931.504:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054931.656:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054931.658:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054934.149:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054934.705:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054936.505:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054936.508:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054936.659:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054936.660:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054939.151:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054939.707:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054941.508:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054941.511:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054941.663:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054941.664:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054944.154:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054944.710:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054946.512:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054946.514:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054946.666:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054946.668:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054949.157:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054949.713:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054951.514:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054951.518:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054951.670:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054951.670:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054954.160:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054954.715:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054956.516:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054956.521:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054956.674:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054956.674:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054959.163:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/054959.717:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055001.521:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055001.524:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055001.678:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055001.679:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055004.166:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055004.721:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055006.523:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055006.525:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055006.681:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055006.682:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055009.169:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055009.724:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055011.527:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055011.528:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055011.685:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055011.686:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055014.170:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055014.726:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055016.529:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055016.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055016.688:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055016.689:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055019.174:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055019.729:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055021.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055021.535:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055021.692:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055021.692:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055024.177:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055024.732:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055026.535:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055026.537:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055026.696:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055026.696:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055029.179:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055029.734:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055031.541:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055031.541:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055031.700:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055031.700:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055034.182:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055034.737:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055036.544:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055036.545:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055036.701:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055036.703:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055039.185:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055039.740:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055041.548:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055041.548:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055041.705:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055041.706:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055044.188:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055044.742:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055046.553:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055046.553:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055046.707:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055046.709:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055049.190:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055049.746:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055051.557:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055051.558:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055051.710:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055051.712:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055054.194:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055054.749:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055056.561:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055056.561:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055056.713:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055056.714:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055059.197:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055059.752:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055101.566:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055101.566:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055101.716:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055101.718:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055104.199:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055104.755:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055106.572:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055106.572:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055106.719:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055106.721:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0810/055846.731:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/055846.731:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/055846.755:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/055846.773:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/055847.775:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PEMJ2cX2fVHLP8C3yQFwWdr7Is&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/060717.842:INFO:CONSOLE(1)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (1)
+[0810/060719.076:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PENLJAKEPxoaUeE7pExJ9saxz1&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/060719.099:INFO:CONSOLE(49)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://s0.2mdn.net/5053096/1531434278633/index.html (49)
+[0810/062849.235:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.vocabulary.com/dictionary/inchoate' was loaded over HTTPS, but requested an insecure image 'http://dmp.truoptik.com/e4dded9c70efc910/sync.gif?'. This content should also be served over HTTPS.", source: https://www.vocabulary.com/dictionary/inchoate (0)
+[0810/062850.145:INFO:CONSOLE(1)] "Uncaught ReferenceError: osdlfm is not defined", source: https://www.vocabulary.com/dictionary/inchoate (1)
+[0810/062906.143:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service
+[0810/180158.733:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/180158.852:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/180159.451:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0810/180200.181:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFmG3I0TM0Rm1ZAzcQIENEBka9&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/180200.612:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFmG3I0TM0Rm1ZAzcQIENEBka9&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/180200.919:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0810/180201.240:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0810/180255.742:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180255.790:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180413.281:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180413.337:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180413.817:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0810/180414.501:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/180414.513:INFO:CONSOLE(32)] "a: 0.046142578125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/180415.097:INFO:CONSOLE(33)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://s0.2mdn.net/ads/richmedia/studio/pv2/60171550/20190318085938172/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=lbVfwshBjp&t=1 (33)
+[0810/180415.668:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0810/180656.507:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/180656.725:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180656.754:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180656.805:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180656.862:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0810/180659.667:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0810/181912.615:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/181912.615:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/181913.495:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFoLu1RjzyTx6pIC8hMtrLTsmO&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/183212.012:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0810/183213.371:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?geo=na&co=us&s=ms2 (12)
+[0810/183213.580:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0810/184045.394:ERROR:browser_process_sub_thread.cc(221)] Waited 36 ms for network service
+[0810/184110.419:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0810/184110.949:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFr1YPRh3zV4SxWnr6UDDph1qC&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/184110.949:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFr1UVJk5cfy3iXmThMgpeaAGx&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/184110.977:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0810/184111.570:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/184111.573:INFO:CONSOLE(32)] "a: 0.006103515625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/184111.792:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0810/184112.224:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0810/184857.904:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0810/184857.905:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0810/184858.358:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFryDHtSNHpub0vdWSnNIA58kY&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/184858.387:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFryGiqTIMnXLLlSEych92PYO3&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/184910.637:ERROR:browser_process_sub_thread.cc(221)] Waited 37 ms for network service
+[0810/185005.109:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/185005.852:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFs6klNPWmqsacAK7rCZ5RWVHh&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/185005.928:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PFs6o55nwY7OyKbxNiT7fQmyBl&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0810/185005.930:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0810/185006.505:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/185006.507:INFO:CONSOLE(32)] "a: 0.0029296875ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0810/185149.954:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0810/185149.954:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
