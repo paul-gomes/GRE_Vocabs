@@ -48,7 +48,7 @@ namespace GRE_Vocabs.Database
             //sqlite_cmd.ExecuteNonQuery();
 
             //Creates table QuestionsBank
-            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS QuestionsBank(QuestionID INTEGER PRIMARY KEY, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked INT NULL, Accuracy REAL Null)";
+            string createQuestionsBank = "CREATE TABLE IF NOT EXISTS QuestionsBank(QuestionID INTEGER PRIMARY KEY, Question VARCHAR(255) NOT NULL, Option1 VARCHAR(20) NOT NULL, Option2 VARCHAR(20) NOT NULL, Option3 VARCHAR(20) NOT NULL, Option4 VARCHAR(20) NOT NULL, Answer VARCHAR(20) NOT NULL, NumberOfTimeAsked INT NULL, NumOfCorrectAns INT NULL, Accuracy REAL Null)";
             sqlite_cmd.CommandText = createQuestionsBank;
             sqlite_cmd.ExecuteNonQuery();
 
@@ -155,7 +155,7 @@ namespace GRE_Vocabs.Database
 
 
         //Gets all the questions
-        public List<QuestionsBank> GetQuestions()
+        public List<QuestionsBank> GetAllQuestions()
         {
             List<QuestionsBank> data = new List<QuestionsBank>();
             dbConnection.Open();
@@ -175,13 +175,42 @@ namespace GRE_Vocabs.Database
                     quesitons.Option4= reader.GetString(5);
                     quesitons.Answer = reader.GetString(6);
                     quesitons.NumberOfTimeAsked = Convert.IsDBNull(reader.GetValue(7)) ? 0 : Convert.ToInt32(reader.GetValue(7));
-                    quesitons.Accuracy = Convert.IsDBNull(reader.GetValue(8)) ? 0 : Convert.ToDecimal(reader.GetValue(8));
+                    quesitons.NumOfCorrectAns = Convert.IsDBNull(reader.GetValue(8)) ? 0 : Convert.ToInt32(reader.GetValue(8));
+                    quesitons.Accuracy = Convert.IsDBNull(reader.GetValue(9)) ? 0 : Convert.ToDecimal(reader.GetValue(9));
                     data.Add(quesitons);
                 }
             }
 
             dbConnection.Close();
             return data;
+        }
+
+        //Get a single question
+        public QuestionsBank GetQuestion(int questionId)
+        {
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("SELECT * FROM QuestionsBank WHERE QuestionID = {0};", questionId);
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            QuestionsBank question = new QuestionsBank();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    question.QuestionID = Convert.ToInt32(reader.GetValue(0));
+                    question.Question = reader.GetString(1);
+                    question.Option1 = reader.GetString(2);
+                    question.Option2 = reader.GetString(3);
+                    question.Option3 = reader.GetString(4);
+                    question.Option4 = reader.GetString(5);
+                    question.Answer = reader.GetString(6);
+                    question.NumberOfTimeAsked = Convert.IsDBNull(reader.GetValue(7)) ? 0 : Convert.ToInt32(reader.GetValue(7));
+                    question.NumOfCorrectAns = Convert.IsDBNull(reader.GetValue(8)) ? 0 : Convert.ToInt32(reader.GetValue(8));
+                    question.Accuracy = Convert.IsDBNull(reader.GetValue(9)) ? 0 : Convert.ToDecimal(reader.GetValue(9));
+                }
+            }
+            dbConnection.Close();
+            return question;
         }
 
         //Deletes a question
@@ -193,5 +222,6 @@ namespace GRE_Vocabs.Database
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
         }
+
     }
 }

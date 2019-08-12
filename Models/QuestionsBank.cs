@@ -16,6 +16,7 @@ namespace GRE_Vocabs.Models
         public string Option4 { get; set; }
         public string Answer { get; set; }
         public int? NumberOfTimeAsked { get; set; }
+        public int? NumOfCorrectAns { get; set; }
         public decimal? Accuracy { get; set; }
 
     }

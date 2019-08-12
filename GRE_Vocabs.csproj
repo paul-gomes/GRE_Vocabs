@@ -97,6 +97,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\QuestionsBank.cs" />
+    <Compile Include="Models\Result.cs" />
     <Compile Include="Models\Words.cs" />
     <Compile Include="QuestionBank.xaml.cs">
       <DependentUpon>QuestionBank.xaml</DependentUpon>

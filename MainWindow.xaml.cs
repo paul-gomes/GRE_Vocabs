@@ -323,8 +323,17 @@ namespace GRE_Vocabs
 
         private void TestMode_Click(object sender, RoutedEventArgs e)
         {
-            TestMode tmWindow = new TestMode();
-            tmWindow.Show();
+            List<QuestionsBank> questions = greDatabase.GetAllQuestions();
+            if(questions.Count >= 10)
+            {
+                TestMode tmWindow = new TestMode();
+                tmWindow.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("You need at least 10 questions in the question bank.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
 
         }
     }

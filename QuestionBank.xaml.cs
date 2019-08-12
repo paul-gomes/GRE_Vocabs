@@ -31,7 +31,7 @@ namespace GRE_Vocabs
         //Populates Words grid
         public void BindQuestionGrid(ListView name)
         {
-            List<QuestionsBank> quesBank = greDatabase.GetQuestions();
+            List<QuestionsBank> quesBank = greDatabase.GetAllQuestions();
             name.ItemsSource = quesBank;
         }
 
@@ -47,6 +47,10 @@ namespace GRE_Vocabs
             if (ques == "")
             {
                 MessageBox.Show("Question textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else if (ques.Contains("'"))
+            {
+                MessageBox.Show("Question can not contain '. Please remove ' and resubmit.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else if (opt1 == "")
             {
