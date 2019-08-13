@@ -105,6 +105,9 @@
     <Compile Include="TestMode.xaml.cs">
       <DependentUpon>TestMode.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TestResult.xaml.cs">
+      <DependentUpon>TestResult.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -123,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TestMode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestResult.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

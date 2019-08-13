@@ -9,6 +9,7 @@ namespace GRE_Vocabs.Models
     public class Result
     {
         public int QuestionId { get; set; }
+        public string Question { get; set; }
         public string CorrectAnswer { get; set; }
         public string Answered { get; set; }
         public bool result { get; set; }

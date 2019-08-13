@@ -129,6 +129,7 @@ namespace GRE_Vocabs
                     question.NumOfCorrectAns += 1;
                     question.Accuracy = Math.Round((Convert.ToDecimal(question.NumOfCorrectAns / question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
+                    res.Question = question.Question;
                     res.CorrectAnswer = question.Answer;
                     res.Answered = answer;
                     res.result = true;
@@ -138,6 +139,7 @@ namespace GRE_Vocabs
                 {
                     question.Accuracy = Math.Round((Convert.ToDecimal(question.NumOfCorrectAns / question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
+                    res.Question = question.Question;
                     res.CorrectAnswer = question.Answer;
                     res.Answered = answer;
                     res.result = false;
@@ -153,6 +155,8 @@ namespace GRE_Vocabs
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
             List<Result> result = getResult();
+            TestResult TRWindow = new TestResult(result);
+            TRWindow.Show();
         }
     }
 }

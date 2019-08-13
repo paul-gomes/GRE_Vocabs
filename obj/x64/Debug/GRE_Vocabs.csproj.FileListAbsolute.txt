@@ -112,3 +112,5 @@ C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\QuestionBank.baml
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestMode.g.cs
 C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestMode.baml
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestResult.g.cs
+C:\Users\apgomes\source\repos\OwnDev\GRE_Vocabs\obj\x64\Debug\TestResult.baml

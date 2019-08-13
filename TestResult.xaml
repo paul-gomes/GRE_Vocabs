@@ -1,0 +1,123 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GRE_Vocabs"
+        xmlns:WPF="clr-namespace:Microsoft.Toolkit.Wpf.UI.Controls;assembly=Microsoft.Toolkit.Wpf.UI.Controls.WebView"
+        xmlns:Models="clr-namespace:GRE_Vocabs.Models" x:Class="GRE_Vocabs.TestResult"
+        mc:Ignorable="d"
+        Title="TestResult" Height="650" Width="1000">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="10,10"/>
+            <Setter Property="Background" Value="#264765"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="white"/>
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style x:Key="listButton" TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="6,6"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="FontSize" Value="15" />
+        </Style>
+
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+
+        <Style x:Key="categoryStyleLeft" TargetType="{x:Type WrapPanel}">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+
+        <Style x:Key="buttonsRight" TargetType="{x:Type WrapPanel}">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+        <Style TargetType="{x:Type DockPanel}">
+            <Setter Property="Margin" Value="20,10,20,5"/>
+        </Style>
+        <Style x:Key="appTitle" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="#264765"/>
+            <Setter Property="Padding" Value="15"/>
+        </Style>
+
+        <Style x:Key="appArea" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="#264765"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+
+    </Window.Resources>
+
+    <DockPanel>
+        <Border Grid.Row="0" Grid.Column="0" DockPanel.Dock="Top" Style="{StaticResource appTitle}">
+            <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Test Result"/></TextBlock>
+        </Border>
+        <Grid DockPanel.Dock="Bottom" >
+            <Grid.Resources >
+                <Style TargetType="{x:Type Border}" >
+                    <Setter Property="Padding" Value="5,5,5,5" />
+                    <Setter Property="Margin" Value="2,2,2,2"/>
+                </Style>
+            </Grid.Resources>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Grid.Column="0">
+                <TextBlock x:Name="totalScore" FontFamily="Open Sans" Foreground="black" FontSize="20"> Hello World</TextBlock>
+            </Border>
+
+            <ListView Grid.Row="1" Grid.Column="0" Margin="10" x:Name="resultView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Style.Triggers>
+                            <Trigger Property="Selector.IsSelected"  Value="true">
+                                <Setter Property="Foreground" Value="white" />
+                                <Setter Property="Background" Value="#264765" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Question" Width="500" DisplayMemberBinding="{Binding Question}"/>
+                        <GridViewColumn Header="Correct Answer" Width="150" DisplayMemberBinding="{Binding CorrectAnswer}"/>
+                        <GridViewColumn Header="You Answered" Width="150" DisplayMemberBinding="{Binding Answered}"/>
+                        <GridViewColumn>
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Style="{StaticResource listButton}" x:Name="EditQuestion" ToolTip ="Edit" Width="35" Height="35">
+                                            <Image Source="/GRE_Vocabs;component/Images\edit.png"/>
+                                        </Button>
+                                        <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35">
+                                            <Image Source="/GRE_Vocabs;component/Images\delete.png"/>
+                                        </Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </Grid>
+    </DockPanel>
+</Window>
