@@ -7,7 +7,7 @@
         xmlns:WPF="clr-namespace:Microsoft.Toolkit.Wpf.UI.Controls;assembly=Microsoft.Toolkit.Wpf.UI.Controls.WebView"
         xmlns:Models="clr-namespace:GRE_Vocabs.Models" x:Class="GRE_Vocabs.TestMode"
         mc:Ignorable="d"
-        Title="Test Mode" Height="650" Width="1000">
+        Title="Test Mode" Height="650" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -77,6 +77,7 @@
                 </Grid.Resources>
 
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="200" />
                 </Grid.ColumnDefinitions>
@@ -95,103 +96,126 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Border Grid.Row="1" Grid.Column="0">
+                    <TextBlock x:Name="questionNum1" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25"></TextBlock>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question1Id" FontFamily="Open Sans" Foreground="black" FontSize="15" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question1" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question1" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap"></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer1" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer1" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" Cursor="Hand" Width="180"/>
                 </Border>
                 <Border Grid.Row="2" Grid.Column="0">
+                    <TextBlock x:Name="questionNum2" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question2Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question2" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question2" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer2" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer2" HorizontalAlignment="Right" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
                 <Border Grid.Row="3" Grid.Column="0">
+                    <TextBlock x:Name="questionNum3" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question3Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question3" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question3" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer3" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="3" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer3" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="4" Grid.Column="0">
+                    <TextBlock x:Name="questionNum4" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question4Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question4" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question4" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer4" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="4" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer4" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="5" Grid.Column="0">
+                    <TextBlock x:Name="questionNum5" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question5Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question5" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question5" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer5" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer5" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="6" Grid.Column="0">
+                    <TextBlock x:Name="questionNum6" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="6" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question6Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question6" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question6" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer6" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="6" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer6" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="7" Grid.Column="0">
+                    <TextBlock x:Name="questionNum7" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="7" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question7Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question7" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question7" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer7" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="7" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer7" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="8" Grid.Column="0">
+                    <TextBlock x:Name="questionNum8" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="8" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question8Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question8" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question8" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer8" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="8" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer8" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="9" Grid.Column="0">
+                    <TextBlock x:Name="questionNum9" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="9" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question9Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question9" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question9" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="9" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer9" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="9" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer9" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-
                 <Border Grid.Row="10" Grid.Column="0">
+                    <TextBlock x:Name="questionNum10" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Width="25" ></TextBlock>
+                </Border>
+                <Border Grid.Row="10" Grid.Column="1">
                     <WrapPanel>
                         <TextBlock x:Name="question10Id" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" Visibility="Collapsed"></TextBlock>
-                        <TextBlock x:Name="question10" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="question10" FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" Height="Auto" ></TextBlock>
                     </WrapPanel>
                 </Border>
-                <Border Grid.Row="10" Grid.Column="1" HorizontalAlignment="Right">
-                    <ComboBox x:Name="answer10" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}" SelectedIndex="0" Cursor="Hand" Width="180"/>
+                <Border Grid.Row="10" Grid.Column="2" HorizontalAlignment="Right">
+                    <ComboBox x:Name="answer10" HorizontalAlignment="Right" Margin="0,10,0,0" ItemsSource="{Binding}"  Cursor="Hand" Width="180"/>
                 </Border>
-                <Border Grid.Row="11" Grid.Column="1" Margin="10" HorizontalAlignment="Right">
+                <Border Grid.Row="11" Grid.Column="2" Margin="10" HorizontalAlignment="Right">
                     <Button x:Name="submit" Margin="5,0" Padding="10,5" Cursor="Hand" Content="Submit" Click="Submit_Click"/>
                 </Border>
             </Grid>

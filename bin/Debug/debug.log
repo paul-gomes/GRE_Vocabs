@@ -1051,3 +1051,507 @@
 [0813/115907.638:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
 [0813/115907.814:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/ul_cb/sync?ssp=districtm&user_id=1PNXUzERcVFWzXZcJexZDPz2L86' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
 [0813/115907.863:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PNXV4XCADYbbNPUuwL56574NFn&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155009.168:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/155011.051:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/155011.101:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/155011.106:INFO:CONSOLE(32)] "a: 0.017822265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/155011.273:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0813/155035.088:ERROR:browser_process_sub_thread.cc(221)] Waited 35 ms for network service
+[0813/155131.810:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/155131.810:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/155132.560:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PNzlTXSDTJrBKchB4HSob3C67I&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155132.565:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?ssp=districtm&user_id=1PNzlTXSDTJrBKchB4HSob3C67I' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155132.828:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PNzlSoCY9HHrs5hA9SiqO7692s&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155133.244:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?dsp_id=16&user_id=CAESEFmTWLFEfduW61Uqget3PZc&google_cver=1&ssp=districtm&bsw_param=3bfa926c-d135-4141-bcf9-5b4acf5bad89' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155137.508:ERROR:browser_process_sub_thread.cc(221)] Waited 34 ms for network service
+[0813/155202.653:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/155202.654:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/155203.382:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?dsp_id=119&user_id=957085292147744390&expires=30&ssp=districtm' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/155203.406:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?dsp_id=6&user_id=21f78905-d9cf-423d-a97a-3e12900f9fb7&user_group=1&ssp=districtm&bsw_param=21f78905-d9cf-423d-a97a-3e12900f9fb7' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/160628.785:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/160628.786:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/160629.103:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?ssp=districtm&user_id=1PO1a37e7NhvoWfCXo0aPCDRYII' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/160629.198:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO1a5HWlsdyjYCKbyVKr3ajAvt&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/161354.606:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/161354.607:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/161355.029:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO2U64Ds71VQawfGbsRyQMwm1L&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/161454.385:ERROR:browser_process_sub_thread.cc(221)] Waited 37 ms for network service
+[0813/165435.384:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/165435.384:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170004.720:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170004.779:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170005.153:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/ul_cb/sync?ssp=districtm&user_id=1PO86Ewl4FzpRPEWk4v2bAye2eB' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170005.175:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO86A8ggnGb0cnWsJbEOzpwqKq&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170011.689:ERROR:browser_process_sub_thread.cc(221)] Waited 27 ms for network service
+[0813/170132.371:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170132.374:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170132.812:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8HHmbvfgGhL0wai5azFEFpEg&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170132.829:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8HH3rnC94vW77jn94lhqBha6&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170207.850:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170207.852:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170208.397:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8Lly2cp4GXqjAnfKcygXxf5A&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170229.293:ERROR:browser_process_sub_thread.cc(221)] Waited 28 ms for network service
+[0813/170316.744:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170316.908:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170317.120:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8UIpDR36aSmbcSv8nD2UoyDz&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170452.003:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170452.006:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170452.538:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8gNMoEA3jWJd8OMYXR7bJCqD&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170452.576:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8gLsw9CsdtGVjvzd7NX6BXtr&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170538.222:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170538.334:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170541.910:ERROR:browser_process_sub_thread.cc(221)] Waited 27 ms for network service
+[0813/170608.447:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170608.448:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170608.830:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8pzA5XYOkhW57AtFU1dK1EH9&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170608.841:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?ssp=districtm&user_id=1PO8pwsk4JAGQckgaa7qHtbb2Oa' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170709.851:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170709.901:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170709.917:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170709.917:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/170710.426:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8xmvlTpvXs8LiESDHVeT1nOw&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170710.460:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PO8xm4gGHFTgM1jqn5xh3KoWTF&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/170753.712:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170753.745:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170753.784:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170753.829:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170754.152:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170754.184:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170754.227:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170754.254:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170754.300:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/170755.506:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/170755.550:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/170755.552:INFO:CONSOLE(32)] "a: 0.004150390625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/172604.034:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POBG8xng6xJjjJHZLxZBCR1WBa&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/172604.063:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?dsp_id=16&user_id=CAESEEBJlwtHs-sNPc0NSIW9fvc&google_cver=1&ssp=districtm&bsw_param=87411df6-91b8-3a01-d95f-8b1784aafb3f' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/221432.523:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/221432.523:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/221432.524:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.525:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.525:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.526:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.550:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.552:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.627:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.627:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.627:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.628:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.628:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.628:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.631:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.631:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221432.631:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221432.632:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221433.365:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/221433.370:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/221433.370:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/221433.374:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/221433.375:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/221433.375:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/221433.375:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/221433.375:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/221433.375:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/221433.407:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/221433.410:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/221433.410:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/221433.412:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/221433.441:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/221433.482:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/221433.547:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.547:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.547:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/221433.548:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/221433.548:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/221433.548:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[73aa8680:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[75389330:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.548:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.564:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.564:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.568:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.568:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.600:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.600:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/221433.600:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/221433.600:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.600:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/221433.600:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/221433.601:WARNING:stun_port.cc(444)] Port[75389330:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.601:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.601:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.603:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.603:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.603:WARNING:stun_port.cc(444)] Port[73aa8680:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.603:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/221433.603:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.616:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.616:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.621:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.621:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.631:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c8-be41-11e9-b696-120eb3601dba&v=120&nocr=1 (1)
+[0813/221433.632:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a0b774c3-be41-11e9-aed2-12251bf36c42&v=120&nocr=1 (1)
+[0813/221433.652:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.652:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.652:WARNING:stun_port.cc(444)] Port[73aa93a0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221433.652:WARNING:stun_port.cc(444)] Port[75346200:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/221434.581:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POkL2adYXkYeq4wQAy3CAIjO6m&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/221511.695:ERROR:browser_process_sub_thread.cc(221)] Waited 33 ms for network service
+[0813/221821.981:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/221821.981:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/221822.866:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POknu0HwbY2XrV1xCCoUHqWrWX&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/222456.154:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POlbd4VnKRXdifd3yIAi15voTl&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/222456.197:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/222456.198:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POlbZbSaoZ28QtFcYPoh65Spsq&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/222456.224:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.226:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.250:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/222456.271:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.271:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.291:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.303:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.340:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.340:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.341:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.367:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.367:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222456.403:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.405:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.405:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.409:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.410:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222456.679:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/222456.683:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/222456.686:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/222456.686:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/222456.686:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/222456.686:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/222456.687:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/222456.724:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/222456.725:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.761:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.762:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.810:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.810:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222456.811:WARNING:stun_port.cc(444)] Port[7e806170:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.811:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222456.811:WARNING:stun_port.cc(444)] Port[34a188d0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.811:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34a188d0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[7e806170:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.812:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.866:WARNING:stun_port.cc(444)] Port[7e778a40:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222456.866:WARNING:stun_port.cc(444)] Port[34988cb0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222457.374:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f8b28c-be43-11e9-a2a7-1285fa01dc6c&v=120&nocr=1 (1)
+[0813/222457.415:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=14f99ce0-be43-11e9-ac96-1249469c4af4&v=120&nocr=1 (1)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.519:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.568:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.568:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.568:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.568:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.569:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.569:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.569:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.569:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222536.624:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60632 (any)
+[0813/222536.625:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:60631 (any)
+[0813/222902.102:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POm6VGNk8TxCJtO5PDNENnObGV&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/222902.102:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POm6RiHlzjT5v01CuvuiD8TO2d&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/222902.214:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/222902.220:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.226:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.265:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.278:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/222902.281:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.283:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.312:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.326:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.326:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.327:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.329:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.329:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222902.384:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.384:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.385:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.387:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.389:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222902.797:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/222902.800:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/222902.800:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/222902.801:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/222902.806:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/222902.809:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/222902.809:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/222902.810:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/222902.861:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/222902.884:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/222902.895:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222902.963:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.066:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222903.066:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222903.066:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222903.067:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/222903.067:WARNING:stun_port.cc(444)] Port[747dbc20:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.067:WARNING:stun_port.cc(444)] Port[7e037680:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.067:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.067:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.083:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.083:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.119:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222903.120:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222903.120:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222903.120:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/222903.121:WARNING:stun_port.cc(444)] Port[7e037680:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.122:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.122:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.122:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.124:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.126:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.126:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.129:WARNING:stun_port.cc(444)] Port[747dbc20:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.131:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.381:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a793d344-be43-11e9-b95a-12e3e3d47bd4&v=120&nocr=1 (1)
+[0813/222903.383:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.383:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.383:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.383:WARNING:stun_port.cc(444)] Port[747dc130:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.384:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.400:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.400:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.400:WARNING:stun_port.cc(444)] Port[7e020800:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/222903.407:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=a7972ead-be43-11e9-956b-12bf71abeeb4&v=120&nocr=1 (1)
+[0813/222942.645:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.711:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.838:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.838:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.882:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.882:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.882:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.884:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.884:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222942.888:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.888:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.888:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.888:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222942.888:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222943.123:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222943.127:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222943.140:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222943.140:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:59404 (any)
+[0813/222943.142:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/222943.158:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:54216 (any)
+[0813/223142.063:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/223142.112:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/223144.749:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/223145.328:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223145.331:INFO:CONSOLE(32)] "a: 0.004150390625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223145.919:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POmQzIrA94g6Un9IuFy7cde0SS&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/223258.315:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/223258.336:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/223258.896:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223258.898:INFO:CONSOLE(32)] "a: 0.009033203125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223258.898:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223258.901:INFO:CONSOLE(32)] "a: 0.001953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0813/223258.955:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POmaIbKhNqb3aCf7q6MqAxczsk&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/223258.971:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POmaGd0ZLstTbaRIyzPz6aSABh&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/223259.202:INFO:CONSOLE(1)] "The devicemotion events are blocked by feature policy. See https://github.com/WICG/feature-policy/blob/master/features.md#sensor-features", source:  (1)
+[0813/223259.202:INFO:CONSOLE(1)] "The deviceorientation events are blocked by feature policy. See https://github.com/WICG/feature-policy/blob/master/features.md#sensor-features", source:  (1)
+[0813/223502.810:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/223503.938:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POmq1HIrbuq1aUI2usyqRRE93q&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/223504.027:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/223504.042:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.042:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.063:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.139:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.139:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.139:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.141:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.141:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223504.420:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/223504.421:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/223504.421:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/223504.422:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/223504.529:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/223504.540:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.540:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.540:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.540:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.593:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/223504.593:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/223504.603:WARNING:stun_port.cc(444)] Port[7c107c40:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223504.605:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223504.605:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.605:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.610:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.634:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.644:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.671:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223504.724:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/223504.725:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/223504.725:WARNING:stun_port.cc(444)] Port[7c107c40:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223504.725:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223504.764:WARNING:stun_port.cc(444)] Port[7c108150:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223505.202:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=7f258652-be44-11e9-a08b-128c33927dca&v=120&nocr=1 (1)
+[0813/223544.304:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.304:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.304:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.304:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.371:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.371:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.376:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.399:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.407:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.431:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223544.526:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:55700 (any)
+[0813/223817.454:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0813/223818.342:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0813/223818.348:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.352:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.379:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.452:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.454:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.455:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.461:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.462:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223818.639:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1POnEVHZ28O5vRnGbbIx7UVIZDo&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0813/223818.756:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0813/223818.759:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0813/223818.759:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0813/223818.760:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0813/223818.812:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0813/223818.860:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.860:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.860:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.860:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.906:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/223818.906:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0813/223818.907:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/223818.907:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.912:WARNING:stun_port.cc(444)] Port[3364a6c0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223818.925:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223818.925:WARNING:stun_port.cc(444)] Port[3364a6c0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223818.925:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0813/223818.926:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223818.962:WARNING:stun_port.cc(444)] Port[3364abd0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0813/223819.497:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f35a8486-be44-11e9-8896-12bf8dcc9844&v=120&nocr=1 (1)
+[0813/223858.616:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.619:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.619:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.619:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.644:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.670:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.670:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.670:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.671:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/223858.684:ERROR:stun_port.cc(92)] Binding request timed out from 0.0.0.x:63202 (any)
+[0813/224132.976:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/224133.027:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0813/224231.035:ERROR:browser_process_sub_thread.cc(221)] Waited 31 ms for network service
+[0814/100942.329:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/100942.742:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQ9Jcz20sBptl0WZ1syh7NTlS7&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/100942.760:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQ9Jh9YbyyWq4qrXfWP1onJaue&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/102223.400:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/102223.424:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/102223.456:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/102223.833:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQArFVgxLRjqyH4ReRJIRpERkH&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/102223.858:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQArLNFBx0Uuy86TkLVs7bXpYB&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/102302.206:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0814/102302.256:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0814/102305.480:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+[0814/111623.047:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/111623.211:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/111623.611:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQHQSk4mhSGqXvx0KYJwIAbQCz&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/111623.631:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?ssp=districtm&user_id=1PQHQSk4mhSGqXvx0KYJwIAbQCz' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/112217.784:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/112217.811:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/112218.466:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/sync?ssp=districtm&user_id=1PQI96xMTazzFk7RbATgSFM3SO1' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/112218.584:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/ul_cb/sync?ssp=districtm&user_id=1PQI97XcxwdS1cnwWOgvMRnz6zn' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/112219.513:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQI96xMTazzFk7RbATgSFM3SO1&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/113642.586:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0814/113642.713:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQJtf0Purxub1CA2AZY0S5H7G7&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0814/113642.749:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PQJtg6ZxMsNWTUyuPz7MdUoaie&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)

@@ -33,16 +33,28 @@ namespace GRE_Vocabs.Database
             dbConnection.Open();
 
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+
+            //Delete createVocablist table
+            //string delete = "DROP TABLE QuestionsBank";
+            //sqlite_cmd.CommandText = delete;
+            //sqlite_cmd.ExecuteNonQuery();
+
             //Creates table VocabList 
-            string createVocabList = "CREATE TABLE IF NOT EXISTS VocabList(VocabListId INT PRIMARY KEY NOT NULL, VocabListName VARCHAR(50) NOT NULL)";
+            string createVocabList = "CREATE TABLE IF NOT EXISTS VocabList(VocabListId INTEGER PRIMARY KEY, VocabListName VARCHAR(50) NOT NULL)";
             sqlite_cmd.CommandText = createVocabList;
             sqlite_cmd.ExecuteNonQuery();
 
+            //Delete CreateWords table
+            //string delete = "DROP TABLE QuestionsBank";
+            //sqlite_cmd.CommandText = delete;
+            //sqlite_cmd.ExecuteNonQuery();
+
             //Creates table Words
-            string createWords = "CREATE TABLE IF NOT EXISTS Words(WordId INT PRIMARY KEY NOT NULL, Word VARCHAR(20) NOT NULL, WordStatus VARCHAR(20) NOT NULL, VocabListId INT NOT NULL, FOREIGN KEY(VocabListId) REFERENCES VocabList(VocabListId))";
+            string createWords = "CREATE TABLE IF NOT EXISTS Words(WordId INTEGER PRIMARY KEY, Word VARCHAR(20) NOT NULL, WordStatus VARCHAR(20) NOT NULL, NumOfTimeTested INT NULL, NumOfTimeAccurate INT NULL, Accuracy REAL Null, VocabListId INTEGER, FOREIGN KEY(VocabListId) REFERENCES VocabList(VocabListId))";
             sqlite_cmd.CommandText = createWords;
             sqlite_cmd.ExecuteNonQuery();
 
+            //Delete QuestionsBank Table
             //string delete = "DROP TABLE QuestionsBank";
             //sqlite_cmd.CommandText = delete;
             //sqlite_cmd.ExecuteNonQuery();
@@ -135,7 +147,7 @@ namespace GRE_Vocabs.Database
         {
             dbConnection.Open();
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
-            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionsBank(Question,Option1,Option2,Option3,Option4,Answer) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}');", question.Question, question.Option1, question.Option2, question.Option3, question.Option4, question.Answer);
+            sqlite_cmd.CommandText = String.Format("INSERT INTO QuestionsBank(Question,Option1,Option2,Option3,Option4,Answer,NumberOfTimeAsked,NumOfCorrectAns,Accuracy) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}', '{7}', '{8}');", question.Question, question.Option1, question.Option2, question.Option3, question.Option4, question.Answer, question.NumberOfTimeAsked, question.NumOfCorrectAns, question.Accuracy);
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
 
@@ -146,7 +158,7 @@ namespace GRE_Vocabs.Database
         {
             dbConnection.Open();
             SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
-            sqlite_cmd.CommandText = String.Format("UPDATE QuestionsBank SET Question='{0}', Option1='{1}', Option2='{2}', Option3='{3}', Option4='{4}', Answer='{5}' WHERE QuestionID = {6};", question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer, question.QuestionID);
+            sqlite_cmd.CommandText = String.Format("UPDATE QuestionsBank SET Question='{0}', Option1='{1}', Option2='{2}', Option3='{3}', Option4='{4}', Answer='{5}', NumberOfTimeAsked='{6}', NumOfCorrectAns='{7}', Accuracy='{8}'  WHERE QuestionID = {9};", question.Question, question.Option1, question.Option2, question.Option3,question.Option4, question.Answer,question.NumberOfTimeAsked, question.NumOfCorrectAns, question.Accuracy, question.QuestionID);
             SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
             dbConnection.Close();
 

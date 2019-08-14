@@ -35,8 +35,11 @@ namespace GRE_Vocabs
                 int iteration = 1;
                 foreach (var ques in questions)
                 {
+                    TextBlock textblockNum = (TextBlock)FindName("questionNum" + iteration.ToString());
+                    textblockNum.Text = String.Format("{0}. ", iteration);
+
                     TextBlock textblock = (TextBlock)FindName("question" + iteration.ToString());
-                    textblock.Text = String.Format("{0}. {1}", iteration, ques.Question);
+                    textblock.Text = String.Format("{0}", ques.Question);
 
                     TextBlock textblockId = (TextBlock)FindName(String.Format("question{0}Id", iteration.ToString()));
                     textblockId.Text = ques.QuestionID.ToString();
@@ -56,7 +59,7 @@ namespace GRE_Vocabs
                 }
 
             }
-            Countdown(600, TimeSpan.FromSeconds(1), cur => time.Content = string.Format("Time Remaining: {0}:{1:00}", cur / 60, cur % 60));
+            Countdown(480, TimeSpan.FromSeconds(1), cur => time.Content = string.Format("Time Remaining: {0}:{1:00}", cur / 60, cur % 60));
 
         }
         private void Countdown(int count, TimeSpan interval, Action<int> ts)
@@ -66,9 +69,17 @@ namespace GRE_Vocabs
             dt.Tick += (_, a) =>
             {
                 if (count-- == 0)
+                {
                     dt.Stop();
+                    List<Result> result = getResult();
+                    TestResult trWindow = new TestResult(result);
+                    trWindow.Show();
+                    this.Close();
+                }
                 else
+                {
                     ts(count);
+                }     
             };
             ts(count);
             dt.Start();
@@ -117,7 +128,7 @@ namespace GRE_Vocabs
                 int quesId = Convert.ToInt32(textblockId.Text);
 
                 ComboBox comboBox = (ComboBox)FindName("answer" + i.ToString());
-                var answer = comboBox.SelectedValue.ToString();
+                var answer = (comboBox.SelectedValue == null) ? "" : comboBox.SelectedValue.ToString();
 
                 QuestionsBank question = greDatabase.GetQuestion(quesId);
                 question.NumberOfTimeAsked += 1;
@@ -127,24 +138,25 @@ namespace GRE_Vocabs
                 if (answer == question.Answer)
                 {
                     question.NumOfCorrectAns += 1;
-                    question.Accuracy = Math.Round((Convert.ToDecimal(question.NumOfCorrectAns / question.NumberOfTimeAsked) * 100), 2);
+                    question.Accuracy = Math.Round((Convert.ToDecimal((double)question.NumOfCorrectAns / (double)question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
                     res.Question = question.Question;
                     res.CorrectAnswer = question.Answer;
                     res.Answered = answer;
-                    res.result = true;
+                    res.Correct = true;
 
                 }
                 else
                 {
-                    question.Accuracy = Math.Round((Convert.ToDecimal(question.NumOfCorrectAns / question.NumberOfTimeAsked) * 100), 2);
+                    question.Accuracy = Math.Round((Convert.ToDecimal((double)question.NumOfCorrectAns / (double)question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
                     res.Question = question.Question;
                     res.CorrectAnswer = question.Answer;
                     res.Answered = answer;
-                    res.result = false;
+                    res.Correct = false;
                 }
                 result.Add(res);
+                greDatabase.UpdateQuestion(question);
 
 
             }
@@ -155,8 +167,9 @@ namespace GRE_Vocabs
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
             List<Result> result = getResult();
-            TestResult TRWindow = new TestResult(result);
-            TRWindow.Show();
+            TestResult trWindow = new TestResult(result);
+            trWindow.Show();
+            this.Close();
         }
     }
 }

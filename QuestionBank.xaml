@@ -7,7 +7,7 @@
         xmlns:WPF="clr-namespace:Microsoft.Toolkit.Wpf.UI.Controls;assembly=Microsoft.Toolkit.Wpf.UI.Controls.WebView"
         xmlns:Models="clr-namespace:GRE_Vocabs.Models" x:Class="GRE_Vocabs.QuestionBank"
         mc:Ignorable="d"
-        Title="Questions Bank" Height="650" Width="1000">
+        Title="Questions Bank" Height="650" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -194,6 +194,7 @@
                     <ListView Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
                         <ListView.ItemContainerStyle>
                             <Style TargetType="{x:Type ListViewItem}">
+                                <Setter Property="Margin" Value="10"/>
                                 <Style.Triggers>
                                     <Trigger Property="Selector.IsSelected"  Value="true">
                                         <Setter Property="Foreground" Value="white" />
@@ -204,7 +205,13 @@
                         </ListView.ItemContainerStyle>
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Question" Width="500" DisplayMemberBinding="{Binding Question}"/>
+                                <GridViewColumn Header="Question" Width="460">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Question}" Width="460" TextWrapping="Wrap" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
                                 <GridViewColumn Header="Answer" Width="100" DisplayMemberBinding="{Binding Answer}"/>
                                 <GridViewColumn Header="Appeared in Test" Width="130" DisplayMemberBinding="{Binding NumberOfTimeAsked}"/>
                                 <GridViewColumn Header="Accuracy(%)" Width="100" DisplayMemberBinding="{Binding Accuracy}"/>

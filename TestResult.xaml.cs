@@ -29,7 +29,7 @@ namespace GRE_Vocabs
 
             foreach(var res in result)
             {
-                if (res.result)
+                if (res.Correct)
                 {
                     totalPoints++;
                 }

@@ -7,7 +7,7 @@
         xmlns:WPF="clr-namespace:Microsoft.Toolkit.Wpf.UI.Controls;assembly=Microsoft.Toolkit.Wpf.UI.Controls.WebView"
         xmlns:Models="clr-namespace:GRE_Vocabs.Models" x:Class="GRE_Vocabs.TestResult"
         mc:Ignorable="d"
-        Title="TestResult" Height="650" Width="1000">
+        Title="TestResult" Height="650" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -77,47 +77,57 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Border Grid.Row="0" Grid.Column="0">
                 <TextBlock x:Name="totalScore" FontFamily="Open Sans" Foreground="black" FontSize="20"> Hello World</TextBlock>
             </Border>
+            <Border Grid.Row="1" Grid.Column="0">
+                <ListView Margin="10" x:Name="resultView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="Margin" Value="10"/>
+                            <Style.Triggers>
+                                <Trigger Property="Selector.IsSelected"  Value="true">
+                                    <Setter Property="Foreground" Value="white" />
+                                    <Setter Property="Background" Value="#264765" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Question" Width="480">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Question}" Width="480" TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Correct Answer" Width="150" DisplayMemberBinding="{Binding CorrectAnswer}"/>
+                            <GridViewColumn Header="You Answered" Width="150" DisplayMemberBinding="{Binding Answered}"/>
+                            <GridViewColumn>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <!--<Image x:Name="correct" Source="/GRE_Vocabs;component/Images\correct.png" Width="25" Height="25" Margin="5" />-->
+                                        <Image x:Name="resultImage"  Width="25" Height="25" Margin="5"/>
+                                        <DataTemplate.Triggers>
+                                            <DataTrigger Binding="{Binding Correct}" Value="True">
+                                                <Setter TargetName="resultImage" Property="Source" Value="/GRE_Vocabs;component/Images\correct.png"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Correct}" Value="False">
+                                                <Setter TargetName="resultImage" Property="Source" Value="/GRE_Vocabs;component/Images\wrong.png"/>
+                                            </DataTrigger>
+                                        </DataTemplate.Triggers>
+                                        
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
 
-            <ListView Grid.Row="1" Grid.Column="0" Margin="10" x:Name="resultView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
-                <ListView.ItemContainerStyle>
-                    <Style TargetType="{x:Type ListViewItem}">
-                        <Style.Triggers>
-                            <Trigger Property="Selector.IsSelected"  Value="true">
-                                <Setter Property="Foreground" Value="white" />
-                                <Setter Property="Background" Value="#264765" />
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </ListView.ItemContainerStyle>
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Question" Width="500" DisplayMemberBinding="{Binding Question}"/>
-                        <GridViewColumn Header="Correct Answer" Width="150" DisplayMemberBinding="{Binding CorrectAnswer}"/>
-                        <GridViewColumn Header="You Answered" Width="150" DisplayMemberBinding="{Binding Answered}"/>
-                        <GridViewColumn>
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Button Style="{StaticResource listButton}" x:Name="EditQuestion" ToolTip ="Edit" Width="35" Height="35">
-                                            <Image Source="/GRE_Vocabs;component/Images\edit.png"/>
-                                        </Button>
-                                        <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35">
-                                            <Image Source="/GRE_Vocabs;component/Images\delete.png"/>
-                                        </Button>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-
-                    </GridView>
-                </ListView.View>
-            </ListView>
-
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Border>
         </Grid>
     </DockPanel>
 </Window>

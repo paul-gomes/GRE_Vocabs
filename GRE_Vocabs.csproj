@@ -214,5 +214,11 @@
   <ItemGroup>
     <Resource Include="Images\edit.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wrong.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

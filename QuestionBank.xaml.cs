@@ -103,6 +103,9 @@ namespace GRE_Vocabs
                         quesBank.Option3 = opt3;
                         quesBank.Option4 = opt4;
                         quesBank.Answer = ans;
+                        quesBank.NumberOfTimeAsked = 0;
+                        quesBank.NumOfCorrectAns = 0;
+                        quesBank.Accuracy = 0;
                         greDatabase.SubmitQuestion(quesBank);
                         BindQuestionGrid(questionListView);
                         MessageBox.Show("Successfully added to the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -115,8 +118,7 @@ namespace GRE_Vocabs
                     }
                     else
                     {
-                        QuestionsBank quesBank = new QuestionsBank();
-                        quesBank.QuestionID = Convert.ToInt32(quesId);
+                        QuestionsBank quesBank = greDatabase.GetQuestion(Convert.ToInt32(quesId));
                         quesBank.Question = ques;
                         quesBank.Option1 = opt1;
                         quesBank.Option2 = opt2;

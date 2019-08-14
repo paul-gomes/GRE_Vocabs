@@ -12,6 +12,6 @@ namespace GRE_Vocabs.Models
         public string Question { get; set; }
         public string CorrectAnswer { get; set; }
         public string Answered { get; set; }
-        public bool result { get; set; }
+        public bool Correct { get; set; }
     }
 }
