@@ -75,6 +75,7 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <GridSplitter Grid.Column="1" Grid.RowSpan="4"  Width="5" HorizontalAlignment="Stretch" />
@@ -114,9 +115,10 @@
                     <StackPanel>
                         <!--<Label Content="Select A Vocabulary Collection" />-->
                         <TextBlock FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Select a vocabulary collection"/></TextBlock>
-                        <ComboBox x:Name="vocabListComboBox" Margin="0,10,0,0" ItemsSource="{Binding}" DisplayMemberPath="VocabListName" SelectedValuePath="VocabListId" SelectedValue="1" SelectionChanged="VocabListComboBox_SelectionChanged" Cursor="Hand"/>
+                        <ComboBox x:Name="vocabListComboBox" Width="350" Margin="0,10,0,0" ItemsSource="{Binding}" DisplayMemberPath="VocabListName" SelectedValuePath="VocabListId" SelectedValue="1" SelectionChanged="VocabListComboBox_SelectionChanged" Cursor="Hand"/>
                     </StackPanel>
                     <WrapPanel Style="{StaticResource buttonsRight}">
+                        <Button x:Name="wordStats" Margin="5,0" Content="Word Stats" Cursor="Hand" Click="WordStats_Click"/>
                         <Button x:Name="testMode" Margin="5,0" Content="Test Mode" Cursor="Hand" Click="TestMode_Click" />
                     </WrapPanel>
                 </DockPanel>
@@ -154,7 +156,7 @@
                     </ListView.ItemContainerStyle>
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="Words" Width="185" DisplayMemberBinding="{Binding Word}"/>
+                            <GridViewColumn Header="Words" Width="160" DisplayMemberBinding="{Binding Word}"/>
                             <GridViewColumn Header="Actions">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
@@ -180,7 +182,11 @@
             <Border Grid.Row="3" Grid.Column="2">
                 <Grid x:Name="vocabView"/>
             </Border>
-
+            <Border Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3">
+                <WrapPanel HorizontalAlignment="Right">
+                    <TextBlock FontFamily="Open Sans" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Developed By: Paul Gomes"/></TextBlock>
+                </WrapPanel>
+            </Border>
         </Grid>
     </DockPanel>
 </Window>

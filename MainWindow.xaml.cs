@@ -25,12 +25,12 @@ namespace GRE_Vocabs
         public MainWindow()
         {
             InitializeComponent();
-            greDatabase.createDb();
+            //greDatabase.createDb();
 
             // Initialize cef with the provided settings
             CefSettings settings = new CefSettings();
             Cef.Initialize(settings);
-            LoadVocabularyPage((greDatabase.GetWords("Learning", 1))[0].Word);
+            LoadVocabularyPage((greDatabase.GetWordsByStatus("Learning", 1))[0].Word);
 
             //Binds GRE vocab collection list comboBox
             BindVocabListComboBox(vocabListComboBox);
@@ -78,7 +78,7 @@ namespace GRE_Vocabs
         //Populates Words grid
         public void BindWordGrid(ListView name)
         {
-            List<Words> words = greDatabase.GetWords("Learning", 1);
+            List<Words> words = greDatabase.GetWordsByStatus("Learning", 1);
             name.ItemsSource = words;
             name.SelectedValue = words[0];
         }
@@ -102,7 +102,7 @@ namespace GRE_Vocabs
             Words word = (Words)item;
             int wordId = word.WordId;
             greDatabase.ClassifyWord(wordId, "Review");
-            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus(word.WordStatus, Convert.ToInt32(word.VocabListId));
             wordListView.ItemsSource = words;
             if (words.Count > 0)
             {
@@ -125,7 +125,7 @@ namespace GRE_Vocabs
             Words word = (Words)item;
             int wordId = word.WordId;
             greDatabase.ClassifyWord(wordId, "Flagged");
-            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus(word.WordStatus, Convert.ToInt32(word.VocabListId));
             wordListView.ItemsSource = words;
             if (words.Count > 0)
             {
@@ -147,7 +147,7 @@ namespace GRE_Vocabs
             Words word = (Words)item;
             int wordId = word.WordId;
             greDatabase.ClassifyWord(wordId, "Mastered");
-            List<Words> words = greDatabase.GetWords(word.WordStatus, word.VocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus(word.WordStatus, Convert.ToInt32(word.VocabListId));
             wordListView.ItemsSource = words;
             if (words.Count > 0)
             {
@@ -165,7 +165,7 @@ namespace GRE_Vocabs
         private void ShowLearning_Click(object sender, RoutedEventArgs e)
         {
             int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
-            List<Words> words = greDatabase.GetWords("Learning", vocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus("Learning", vocabListId);
             wordListView.ItemsSource = words;
             selectedCategory.Text = "Learning";
             if (words.Count > 0)
@@ -185,7 +185,7 @@ namespace GRE_Vocabs
         private void ShowReview_Click(object sender, RoutedEventArgs e)
         {
             int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
-            List<Words> words = greDatabase.GetWords("Review", vocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus("Review", vocabListId);
             wordListView.ItemsSource = words;
             selectedCategory.Text = "Needs Reviewing";
             if (words.Count > 0)
@@ -205,7 +205,7 @@ namespace GRE_Vocabs
         private void ShowFlagged_Click(object sender, RoutedEventArgs e)
         {
             int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
-            List<Words> words = greDatabase.GetWords("Flagged", vocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus("Flagged", vocabListId);
             wordListView.ItemsSource = words;
             selectedCategory.Text = "Flagged";
             if (words.Count > 0)
@@ -225,7 +225,7 @@ namespace GRE_Vocabs
         private void ShowMastered_Click(object sender, RoutedEventArgs e)
         {
             int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
-            List<Words> words = greDatabase.GetWords("Mastered", vocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus("Mastered", vocabListId);
             wordListView.ItemsSource = words;
             selectedCategory.Text = "Mastered";
             if (words.Count > 0)
@@ -245,7 +245,7 @@ namespace GRE_Vocabs
         private void VocabListComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int vocabListId = Convert.ToInt32(vocabListComboBox.SelectedValue);
-            List<Words> words = greDatabase.GetWords("Learning", vocabListId);
+            List<Words> words = greDatabase.GetWordsByStatus("Learning", vocabListId);
             wordListView.ItemsSource = words;
             selectedCategory.Text = "Learning";
             if (words.Count > 0)
@@ -324,7 +324,7 @@ namespace GRE_Vocabs
         private void TestMode_Click(object sender, RoutedEventArgs e)
         {
             List<QuestionsBank> questions = greDatabase.GetAllQuestions();
-            if(questions.Count >= 10)
+            if(questions.Count >= 50)
             {
                 TestMode tmWindow = new TestMode();
                 tmWindow.Show();
@@ -332,9 +332,16 @@ namespace GRE_Vocabs
             }
             else
             {
-                MessageBox.Show("You need at least 10 questions in the question bank.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                var left = 50 - questions.Count;
+                MessageBox.Show(String.Format("You need at least 50 questions ({0} more questions) in the question bank.",left ), "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
 
+        }
+
+        private void WordStats_Click(object sender, RoutedEventArgs e)
+        {
+            WordStats wsWindow = new WordStats(this.wordListView);
+            wsWindow.Show();
         }
     }
 

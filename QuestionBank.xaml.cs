@@ -26,7 +26,27 @@ namespace GRE_Vocabs
         {
             InitializeComponent();
             BindQuestionGrid(questionListView);
+
+            List<Words> allWords = greDatabase.GetAllWords();
+            wordFilterView.ItemsSource = allWords;
+            CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(wordFilterView.ItemsSource);
+            view.Filter = wordFilter;
         }
+
+        //Words filter
+        private bool wordFilter(object item)
+        {
+            if (String.IsNullOrEmpty(txtFilter.Text))
+                return true;
+            else
+                return ((item as Words).Word.IndexOf(txtFilter.Text, StringComparison.OrdinalIgnoreCase) >= 0);
+        }
+
+        private void txtFilter_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            CollectionViewSource.GetDefaultView(wordFilterView.ItemsSource).Refresh();
+        }
+
 
         //Populates Words grid
         public void BindQuestionGrid(ListView name)
@@ -43,6 +63,7 @@ namespace GRE_Vocabs
             var opt2 = option2.Text;
             var opt3 = option3.Text;
             var opt4 = option4.Text;
+            var word = wordFilterView.SelectedItem;
 
             if (ques == "")
             {
@@ -58,15 +79,19 @@ namespace GRE_Vocabs
             }
             else if (opt2 == "")
             {
-                MessageBox.Show("option2 textbox can not be empty!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("option2 textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
-            else if(opt2 == "")
+            else if(opt3 == "")
             {
-                MessageBox.Show("Option3 textbox can not be empty!.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Option3 textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else if(opt4 == "")
             {
-                MessageBox.Show("Option4 textbox can not be empty!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Option4 textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else if(word == null)
+            {
+                MessageBox.Show("Select correct answer on the left to link to this question in order to receive word stats.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
@@ -89,7 +114,7 @@ namespace GRE_Vocabs
                 }
                 else
                 {
-                    MessageBox.Show("Select the correct answer for this question!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Select the correct answer for this question.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
                     
                 }
                 if (MessageBox.Show("Have you selected the right answer for this question?", "GRE Vocabulary List", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
@@ -106,6 +131,7 @@ namespace GRE_Vocabs
                         quesBank.NumberOfTimeAsked = 0;
                         quesBank.NumOfCorrectAns = 0;
                         quesBank.Accuracy = 0;
+                        quesBank.WordId = ((Words)word).WordId;
                         greDatabase.SubmitQuestion(quesBank);
                         BindQuestionGrid(questionListView);
                         MessageBox.Show("Successfully added to the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -115,6 +141,8 @@ namespace GRE_Vocabs
                         option3.Text = "";
                         option4.Text = "";
                         answer.SelectedIndex = 0;
+                        wordFilterView.SelectedItem = null;
+                        txtFilter.Text = "";
                     }
                     else
                     {
@@ -125,6 +153,7 @@ namespace GRE_Vocabs
                         quesBank.Option3 = opt3;
                         quesBank.Option4 = opt4;
                         quesBank.Answer = ans;
+                        quesBank.WordId = ((Words)word).WordId;
                         greDatabase.UpdateQuestion(quesBank);
                         BindQuestionGrid(questionListView);
                         MessageBox.Show("Successfully updated to the question bank!", "QuestionBank", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -134,6 +163,8 @@ namespace GRE_Vocabs
                         option3.Text = "";
                         option4.Text = "";
                         answer.SelectedIndex = 0;
+                        wordFilterView.SelectedItem = null;
+                        txtFilter.Text = "";
                         questionTabView.SelectedIndex = 1;
                         addQuestion.Content = "Add To The Question Bank";
                         cancel.Visibility = Visibility.Hidden;
@@ -195,6 +226,8 @@ namespace GRE_Vocabs
                 answer.SelectedValue = "Option4";
             }
             questionTabView.SelectedIndex = 0;
+            Words word = greDatabase.GetWord(quesBank.WordId);
+            wordFilterView.SelectedValue = word.Word;
             addQuestion.Content = "Update question";
             cancel.Visibility = Visibility.Visible;
 
@@ -209,6 +242,7 @@ namespace GRE_Vocabs
             option3.Text = "";
             option4.Text = "";
             answer.SelectedIndex = 0;
+            wordFilterView.SelectedItem = null;
             questionTabView.SelectedIndex = 1;
             addQuestion.Content = "Add To The Question Bank";
             cancel.Visibility = Visibility.Hidden;

@@ -7,7 +7,7 @@
         xmlns:WPF="clr-namespace:Microsoft.Toolkit.Wpf.UI.Controls;assembly=Microsoft.Toolkit.Wpf.UI.Controls.WebView"
         xmlns:Models="clr-namespace:GRE_Vocabs.Models" x:Class="GRE_Vocabs.QuestionBank"
         mc:Ignorable="d"
-        Title="Questions Bank" Height="650" Width="1000" WindowStartupLocation="CenterScreen">
+        Title="Questions Bank" Height="750" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -141,38 +141,62 @@
                             <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Question"/></TextBlock>
                         </Border>
                         <Border Grid.Row="2" Grid.Column="1">
-                            <TextBox x:Name="question" FontFamily="Open Sans" FontSize="15" Height="100" Width="Auto" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"/>
+                            <TextBox x:Name="question" BorderBrush="#FF264765" FontFamily="Open Sans" FontSize="15" Height="100" Width="Auto" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"/>
                         </Border>
 
                         <Border Grid.Row="3" Grid.Column="0" Margin="10">
-                            <StackPanel>
-                                <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Correct Answer"/></TextBlock>
-                                <ComboBox x:Name="answer" SelectedValuePath="Content" FontFamily="Open Sans"  FontSize="15" Margin="10" Height="40" Width="200">
-                                    <ComboBoxItem IsSelected="True" Content="Option1"/>
-                                    <ComboBoxItem Content="Option2" />
-                                    <ComboBoxItem Content="Option3"/>
-                                    <ComboBoxItem Content="Option4"/>
-                                </ComboBox>
-                            </StackPanel>
+                            <DockPanel>
+                                <StackPanel DockPanel.Dock="Top">
+                                    <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap"><Run Text="Select correct answer for the word stats"/></TextBlock>
+                                    <TextBox  Margin="0,0,0,10" Height="30" Name="txtFilter" TextChanged="txtFilter_TextChanged" BorderBrush="#FF264765" />
+                                </StackPanel>
+                                <ListView Name="wordFilterView" Height="300" SelectedValuePath="Word" Margin="5" FontFamily="Open Sans" FontSize="15" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
+                                    <ListView.ItemContainerStyle>
+                                        <Style TargetType="{x:Type ListViewItem}">
+                                            <Setter Property="Margin" Value="5"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="Selector.IsSelected"  Value="true">
+                                                    <Setter Property="Foreground" Value="white" />
+                                                    <Setter Property="Background" Value="#264765" />
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </ListView.ItemContainerStyle>
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="Words" Width="Auto" DisplayMemberBinding="{Binding Word}" />
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </DockPanel>
                         </Border>
                         <Border Grid.Row="3" Grid.Column="1" Margin="10">
                             <StackPanel>
                                 <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Multiple Choice Options"/></TextBlock>
                                 <WrapPanel HorizontalAlignment="Center">
                                     <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="Option1:"/></TextBlock>
-                                    <TextBox x:Name="option1" FontFamily="Open Sans"  FontSize="15" Height="40" Width="300"  Margin="10"/>
+                                    <TextBox x:Name="option1" BorderBrush="#FF264765" FontFamily="Open Sans"  FontSize="15" Height="30" Width="300"  Margin="10"/>
                                 </WrapPanel>
                                 <WrapPanel HorizontalAlignment="Center">
                                     <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="Option2:"/></TextBlock>
-                                    <TextBox x:Name="option2" FontFamily="Open Sans"  FontSize="15" Height="40" Width="300"  Margin="10"/>
+                                    <TextBox x:Name="option2" BorderBrush="#FF264765" FontFamily="Open Sans"  FontSize="15" Height="30" Width="300"  Margin="10"/>
                                 </WrapPanel>
                                 <WrapPanel HorizontalAlignment="Center">
                                     <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="Option3:"/></TextBlock>
-                                    <TextBox x:Name="option3" FontFamily="Open Sans"  FontSize="15" Height="40" Width="300"  Margin="10"/>
+                                    <TextBox x:Name="option3" BorderBrush="#FF264765" FontFamily="Open Sans"  FontSize="15" Height="30" Width="300"  Margin="10"/>
                                 </WrapPanel>
                                 <WrapPanel HorizontalAlignment="Center">
                                     <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="Option4:"/></TextBlock>
-                                    <TextBox x:Name="option4" FontFamily="Open Sans"  FontSize="15" Height="40" Width="300"  Margin="10"/>
+                                    <TextBox x:Name="option4" BorderBrush="#FF264765" FontFamily="Open Sans"  FontSize="15" Height="30" Width="300"  Margin="10"/>
+                                </WrapPanel>
+                                <WrapPanel  HorizontalAlignment="Center" >
+                                    <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Correct Answer"/></TextBlock>
+                                    <ComboBox x:Name="answer" BorderBrush="#FF264765" SelectedValuePath="Content" FontFamily="Open Sans"  FontSize="15" Margin="10" Height="30" Width="200">
+                                        <ComboBoxItem IsSelected="True" Content="Option1"/>
+                                        <ComboBoxItem Content="Option2" />
+                                        <ComboBoxItem Content="Option3"/>
+                                        <ComboBoxItem Content="Option4"/>
+                                    </ComboBox>
                                 </WrapPanel>
                             </StackPanel>
                         </Border>
@@ -208,7 +232,7 @@
                                 <GridViewColumn Header="Question" Width="460">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Text="{Binding Question}" Width="460" TextWrapping="Wrap" />
+                                            <TextBlock Text="{Binding Question}" Width="450" TextWrapping="Wrap" />
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>

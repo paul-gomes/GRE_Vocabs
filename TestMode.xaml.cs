@@ -91,7 +91,7 @@ namespace GRE_Vocabs
             List<QuestionsBank> quesionsForTest = new List<QuestionsBank>();
             ques = greDatabase.GetAllQuestions();
 
-            if(ques.Count > 10)
+            if(ques.Count >= 50)
             {
                 List<int> alredayUsedRandNum = new List<int>();
                 while (quesionsForTest.Count <= 10)
@@ -111,10 +111,6 @@ namespace GRE_Vocabs
 
                 }
             }
-            else
-            {
-                return ques;
-            }
             return quesionsForTest;
         }
 
@@ -133,10 +129,21 @@ namespace GRE_Vocabs
                 QuestionsBank question = greDatabase.GetQuestion(quesId);
                 question.NumberOfTimeAsked += 1;
 
+                Words word = greDatabase.GetWord(question.WordId);
+                if(word != null)
+                {
+                    word.NumOfTimeTested += 1;
+                }
+
                 Result res = new Result();
 
                 if (answer == question.Answer)
                 {
+                    if (word != null)
+                    {
+                        word.NumOfTimeAccurate += 1;
+                        word.Accuracy = Math.Round((Convert.ToDecimal((double)word.NumOfTimeAccurate / (double)word.NumOfTimeTested) * 100), 2);
+                    }
                     question.NumOfCorrectAns += 1;
                     question.Accuracy = Math.Round((Convert.ToDecimal((double)question.NumOfCorrectAns / (double)question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
@@ -148,6 +155,10 @@ namespace GRE_Vocabs
                 }
                 else
                 {
+                    if (word != null)
+                    {
+                        word.Accuracy = Math.Round((Convert.ToDecimal((double)word.NumOfTimeAccurate / (double)word.NumOfTimeTested) * 100), 2);
+                    }
                     question.Accuracy = Math.Round((Convert.ToDecimal((double)question.NumOfCorrectAns / (double)question.NumberOfTimeAsked) * 100), 2);
                     res.QuestionId = quesId;
                     res.Question = question.Question;
@@ -157,6 +168,7 @@ namespace GRE_Vocabs
                 }
                 result.Add(res);
                 greDatabase.UpdateQuestion(question);
+                greDatabase.UpdateWord(word);
 
 
             }
