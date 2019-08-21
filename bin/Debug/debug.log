@@ -2313,3 +2313,215 @@
 [0819/170532.945:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
 [0819/170532.977:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
 [0819/170533.028:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/200809.959:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/200809.976:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/200810.015:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/200811.601:INFO:CONSOLE(1)] "Q29tZSB3b3JrIHdpdGggdXMhIFkzWXVjMlZqZFhKcGRIa3VkR1ZoYlVCblpXOWxaR2RsTG1OdmJR", source: https://rumcdn.geoedge.be/grumi-ip.js (1)
+[0819/200811.652:INFO:CONSOLE(5)] "Uncaught SyntaxError: Unexpected token <", source: https://www.vocabulary.com/dictionary/mraid.js (5)
+[0819/200811.657:INFO:CONSOLE(1)] "Barometric: Served on Domain www.vocabulary.com", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.662:INFO:CONSOLE(1)] "Barometric: Placement - 100833", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.689:INFO:CONSOLE(1)] "Barometric: Page is Visible", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.771:INFO:CONSOLE(1)] "Barometric: This is not an MRAID tag", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.772:INFO:CONSOLE(1)] "Barometric: Mobile web tag triggered", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.772:INFO:CONSOLE(1)] "Barometric: Standard JS pixel being shown", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.778:INFO:CONSOLE(1)] "Barometric: Safeframe is not available", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.778:INFO:CONSOLE(1)] "Barometric: JS tells us we are viewable", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200811.808:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PfRiXqwZX9aHomxnbFIYPThSan&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0819/200811.876:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PfRiOAvl3AAJWnR4McqJRLnCYN&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0819/200812.141:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0819/200812.146:ERROR:data_channel.cc(44)] Accepting maxRetransmits = -1 for backwards compatibility
+[0819/200812.146:ERROR:data_channel.cc(49)] Accepting maxRetransmitTime = -1 for backwards compatibility
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 104 to 127
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 103 to 125
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 1 to 14
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 2 to 13
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 3 to 12
+[0819/200812.149:WARNING:media_session.cc(335)] Duplicate id found. Reassigning from 5 to 11
+[0819/200812.293:INFO:CONSOLE(4)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://cdn.fqtag.com/1.20.295-f6f908d/pixel.js (4)
+[0819/200812.391:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.407:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.450:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.463:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.479:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0819/200812.480:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.node4.co.uk., errorcode: -105
+[0819/200812.480:WARNING:stun_port.cc(444)] Port[74e474d0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0819/200812.480:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0819/200812.524:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0819/200812.524:ERROR:socket_manager.cc(125)] Failed to resolve address for stun.budgetphone.nl., errorcode: -105
+[0819/200812.526:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.526:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.526:WARNING:stun_port.cc(444)] Port[74e474d0:0:1:0:local:Net[any:0.0.0.x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0819/200812.526:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error -1
+[0819/200812.564:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.567:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.574:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.593:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.601:WARNING:stun_port.cc(444)] Port[74e937f0:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0819/200812.819:INFO:CONSOLE(1)] "Barometric: Viewability has been reached", source: https://bm.adentifi.com/js/barometric.js?c=6954&p=100833&partner=104&ord=f95e3c48-c2e6-11e9-a87f-1287948a2080&v=120&nocr=1 (1)
+[0819/200813.712:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0819/200814.169:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0819/200814.950:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.951:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.951:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.951:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.952:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.952:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.952:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.953:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.953:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.954:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.954:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.955:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.955:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.955:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.956:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.956:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.956:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.957:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.957:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.958:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.958:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.958:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.959:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.959:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.959:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.960:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.960:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.961:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.961:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.962:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.962:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.962:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.963:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.963:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.963:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.964:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.964:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.965:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.965:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.965:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.966:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.966:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.966:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.967:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.967:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.967:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.968:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.968:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.969:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.969:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.969:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.970:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.970:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.970:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.971:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.971:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.971:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.972:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.972:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.972:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.973:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.973:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.974:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.974:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.974:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.975:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.975:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.976:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.976:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.977:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.977:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.977:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.978:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.978:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.978:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.979:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.979:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200814.980:INFO:CONSOLE(1)] "console.groupEnd", source: https://s.update.rubiconproject.com/2/4.47.0/main.js (1)
+[0819/200815.340:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0819/200816.179:INFO:CONSOLE(12)] "Emily:", source: https://eus.rubiconproject.com/usync.html?&geo=na&co=us (12)
+[0819/200823.610:ERROR:browser_process_sub_thread.cc(221)] Waited 32 ms for network service
+[0819/203925.720:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/203925.768:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/203926.394:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PfVW5x4XIEqbNLwiQc8jMHFXfa&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0819/203928.450:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/203928.501:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/203929.366:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PfVW1TcDYyMVlnLnYVWDYMUdrv&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0819/203934.302:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/203936.530:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/203941.749:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/203941.800:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/204101.945:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/204101.946:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/204102.050:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/204102.055:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0819/204102.312:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PfVi9UxYtiTttBbEbh8mgVaWUd&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0819/204104.584:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/204104.640:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0819/204118.159:ERROR:browser_process_sub_thread.cc(221)] Waited 36 ms for network service
+[0820/140009.451:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0820/140009.452:INFO:CONSOLE(523)] "Powered by AMP ⚡ HTML – Version 1907301630320", source: https://cdn.ampproject.org/rtv/011907301630320/amp4ads-v0.js (523)
+[0820/140009.874:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PhY5F6G7te2DLUYA7p5rzbq8Ct&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0820/140009.901:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PhY59fQaIPBnGpIrmtxJQeuwJR&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0820/140009.924:INFO:CONSOLE(0)] "Refused to execute script from 'https://x.bidswitch.net/ul_cb/sync?ssp=districtm&user_id=1PhY59fQaIPBnGpIrmtxJQeuwJR' because its MIME type ('image/gif') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0820/140011.027:ERROR:browser_process_sub_thread.cc(221)] Waited 28 ms for network service
+[0820/140111.061:ERROR:browser_process_sub_thread.cc(221)] Waited 18 ms for network service
+[0820/154902.457:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154902.457:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154903.567:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154903.568:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154921.875:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154923.010:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0820/154923.050:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0820/154923.053:INFO:CONSOLE(32)] "a: 0.005126953125ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0820/154923.230:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/154923.312:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0820/154927.502:ERROR:browser_process_sub_thread.cc(221)] Waited 82 ms for network service
+[0820/161026.347:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PhnvUp2z81tNzxDQcjedTFyuoe&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0820/161026.924:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1Phnvb0uyDNLyDdRtvoXNbNUQSD&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0820/161031.301:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0820/161037.562:INFO:CONSOLE(168)] "14.199999999999996", source: https://s0.2mdn.net/3099361/1555349697189/TDAP_WhoopingCough_Banners_728x90/TDAP_WhoopingCough_Banners_728x90.html (168)
+[0820/161037.993:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0820/161038.022:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0820/161038.024:INFO:CONSOLE(32)] "a: 0.002197265625ms", source: https://static.adsafeprotected.com/sca.17.4.95.js (32)
+[0820/161057.550:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+[0820/161057.550:ERROR:cache_util.cc(141)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0820/161057.550:ERROR:disk_cache.cc(178)] Unable to create cache
+[0820/161057.550:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+[0820/161059.640:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 1
+[0820/161059.675:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service
+[0820/161113.720:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+[0820/162518.663:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+[0820/163014.370:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 5
+[0820/163014.411:ERROR:browser_process_sub_thread.cc(221)] Waited 20 ms for network service
+[0820/163502.407:ERROR:browser_process_sub_thread.cc(221)] Waited 17 ms for network service
+[0820/170544.614:ERROR:browser_process_sub_thread.cc(221)] Waited 18 ms for network service
+[0821/103932.299:INFO:CONSOLE(1)] "refreshing deferred", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0821/103932.349:INFO:CONSOLE(1)] "deferred complete", source: https://cdn.vocab.com/js/vcom/package-15n92w0.js (1)
+[0821/103932.791:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0821/103932.791:INFO:CONSOLE(522)] "Powered by AMP ⚡ HTML – Version 1908162035200", source: https://cdn.ampproject.org/rtv/011908162035200/amp4ads-v0.js (522)
+[0821/103933.528:INFO:CONSOLE(0)] "Refused to execute script from 'https://u.acuityplatform.com/us?tpId=137&tpUid=1PjyoFKY3zTTnNqLleKfZG8Twab&redir=https%3A%2F%2Fdmx.districtm.io%2Fs%2F10022%2F%24UID' because its MIME type ('image/png') is not executable.", source: https://cdn.districtm.io/ids/?sellerid=10002&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Ddmx.com%26id%3D%7BUID%7D (0)
+[0821/103934.440:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.524:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.533:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.613:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.617:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.707:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103934.998:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.001:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.068:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.094:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.162:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.262:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.356:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.458:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.536:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.553:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103935.630:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103937.783:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0821/103943.103:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+[0821/104054.698:ERROR:browser_process_sub_thread.cc(221)] Waited 23 ms for network service
+[0821/104102.508:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 7
+[0821/104102.523:ERROR:media_internals.cc(115)] Cannot get RenderProcessHost
+[0821/104102.542:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+[0821/105846.865:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service

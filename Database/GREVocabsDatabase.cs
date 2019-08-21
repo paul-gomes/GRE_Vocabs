@@ -22,8 +22,6 @@ namespace GRE_Vocabs.Database
             {
                 dbConnection = new SQLiteConnection("Data Source=" + sqliteFile);
                 dbConnection.SetPassword(sqlitePw);
-
-                //dbConnection = new SQLiteConnection("Data Source=" + sqliteFile + ";Password=" + sqlitePw); // connect to database
                 createDb();
             }
 

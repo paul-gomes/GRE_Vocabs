@@ -2213,11 +2213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GRE_Vocabs\\GRE_Vocabs.csproj",
+      "projectUniqueName": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GREVocabs\\GRE_Vocabs\\GRE_Vocabs.csproj",
       "projectName": "GRE_Vocabs",
-      "projectPath": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GRE_Vocabs\\GRE_Vocabs.csproj",
+      "projectPath": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GREVocabs\\GRE_Vocabs\\GRE_Vocabs.csproj",
       "packagesPath": "C:\\Users\\apgomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GRE_Vocabs\\obj\\",
+      "outputPath": "C:\\Users\\apgomes\\source\\repos\\OwnDev\\GREVocabs\\GRE_Vocabs\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

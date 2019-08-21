@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="GRE_Vocabs.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="Resources\grevocabs_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="GRE_Vocabs" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
@@ -66,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRE_Vocabs.exe" size="474024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRE_Vocabs.exe" size="543656">
       <assemblyIdentity name="GRE_Vocabs" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4mJFyu/6l0ohj8W/CawrzxjKkXmKuj53uZRulhqEwEk=</dsig:DigestValue>
+        <dsig:DigestValue>gsFpnADu710E19ISBwa2UEYNjEjDYjNMgn6sb72q+t4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -144,6 +145,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>8IU6DID3FTzNx6UGpHXnw7kmiMFD7Aaw5ALIdLoDw+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\grevocabs_icon.ico" size="34494">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XW5r+6n1BcNgE6oXE7q0PyyQw+OlkTDnX8ULuchxphU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

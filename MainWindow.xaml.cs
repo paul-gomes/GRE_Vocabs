@@ -25,7 +25,6 @@ namespace GRE_Vocabs
         public MainWindow()
         {
             InitializeComponent();
-            //greDatabase.createDb();
 
             // Initialize cef with the provided settings
             CefSettings settings = new CefSettings();
