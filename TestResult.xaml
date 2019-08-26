@@ -100,7 +100,7 @@
                             <GridViewColumn Header="Question" Width="480">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Question}" Width="480" TextWrapping="Wrap" />
+                                        <TextBlock Text="{Binding Question}" Width="470" TextWrapping="Wrap" />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>

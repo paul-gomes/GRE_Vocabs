@@ -139,7 +139,7 @@
 
             <Border Grid.Row="2" Grid.Column="0" Style="{StaticResource appArea}">
                 <DockPanel>
-                    <TextBlock x:Name="selectedCategory" FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Learning</TextBlock>
+                    <TextBlock x:Name="selectedCategory" FontFamily="Open Sans" Foreground="White" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"></TextBlock>
                 </DockPanel>
             </Border>
             <Border Grid.Row="3" Grid.Column="0">

@@ -59,7 +59,7 @@ namespace GRE_Vocabs
                 }
 
             }
-            Countdown(480, TimeSpan.FromSeconds(1), cur => time.Content = string.Format("Time Remaining: {0}:{1:00}", cur / 60, cur % 60));
+            Countdown(360, TimeSpan.FromSeconds(1), cur => time.Content = string.Format("Time Remaining: {0}:{1:00}", cur / 60, cur % 60));
 
         }
         private void Countdown(int count, TimeSpan interval, Action<int> ts)
@@ -71,10 +71,16 @@ namespace GRE_Vocabs
                 if (count-- == 0)
                 {
                     dt.Stop();
-                    List<Result> result = getResult();
-                    TestResult trWindow = new TestResult(result);
-                    trWindow.Show();
-                    this.Close();
+                    foreach (var Window in App.Current.Windows)
+                    {
+                        if (Window.ToString() == "GRE_Vocabs.TestMode")
+                        {
+                            List<Result> result = getResult();
+                            TestResult trWindow = new TestResult(result);
+                            trWindow.Show();
+                            this.Close();
+                        }
+                    }
                 }
                 else
                 {
@@ -94,7 +100,7 @@ namespace GRE_Vocabs
             if(ques.Count >= 50)
             {
                 List<int> alredayUsedRandNum = new List<int>();
-                while (quesionsForTest.Count <= 10)
+                while (quesionsForTest.Count < 10)
                 {
                     //Creating a random number
                     Random random = new Random();
@@ -129,7 +135,7 @@ namespace GRE_Vocabs
                 QuestionsBank question = greDatabase.GetQuestion(quesId);
                 question.NumberOfTimeAsked += 1;
 
-                Words word = greDatabase.GetWord(question.WordId);
+                Words word = greDatabase.GetWord(question.WordId.Value);
                 if(word != null)
                 {
                     word.NumOfTimeTested += 1;

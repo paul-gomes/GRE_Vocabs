@@ -25,34 +25,34 @@ namespace GRE_Vocabs
         public QuestionBank()
         {
             InitializeComponent();
-            BindQuestionGrid(questionListView);
 
-            List<Words> allWords = greDatabase.GetAllWords();
-            wordFilterView.ItemsSource = allWords;
-            CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(wordFilterView.ItemsSource);
-            view.Filter = wordFilter;
-        }
-
-        //Words filter
-        private bool wordFilter(object item)
-        {
-            if (String.IsNullOrEmpty(txtFilter.Text))
-                return true;
+            Words word = (Words)((MainWindow)Application.Current.MainWindow).wordListView.SelectedValue;
+            if (word != null)
+            {
+                wordIdTextBox.Text = word.WordId.ToString();
+                wordTextBox.Text = word.Word;
+                quesBelong.IsChecked = false;
+            }
             else
-                return ((item as Words).Word.IndexOf(txtFilter.Text, StringComparison.OrdinalIgnoreCase) >= 0);
+            {
+                wordIdTextBox.Text = "";
+                wordTextBox.Text = "";
+                quesBelong.IsChecked = true;
+            }
         }
 
-        private void txtFilter_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-            CollectionViewSource.GetDefaultView(wordFilterView.ItemsSource).Refresh();
-        }
 
-
-        //Populates Words grid
-        public void BindQuestionGrid(ListView name)
+        private void QuestionTabView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            List<QuestionsBank> quesBank = greDatabase.GetAllQuestions();
-            name.ItemsSource = quesBank;
+            if (e.Source is TabControl)
+            {
+                if (qListTabItem != null && qListTabItem.IsSelected)
+                {
+                    List<QuestionsBank> quesBank = greDatabase.GetAllQuestions();
+                    questionListView.ItemsSource = quesBank;
+                }
+            }
+
         }
 
         private void AddQuestion_Click(object sender, RoutedEventArgs e)
@@ -63,7 +63,6 @@ namespace GRE_Vocabs
             var opt2 = option2.Text;
             var opt3 = option3.Text;
             var opt4 = option4.Text;
-            var word = wordFilterView.SelectedItem;
 
             if (ques == "")
             {
@@ -88,10 +87,6 @@ namespace GRE_Vocabs
             else if(opt4 == "")
             {
                 MessageBox.Show("Option4 textbox can not be empty.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
-            else if(word == null)
-            {
-                MessageBox.Show("Select correct answer on the left to link to this question in order to receive word stats.", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
@@ -131,18 +126,26 @@ namespace GRE_Vocabs
                         quesBank.NumberOfTimeAsked = 0;
                         quesBank.NumOfCorrectAns = 0;
                         quesBank.Accuracy = 0;
-                        quesBank.WordId = ((Words)word).WordId;
+                        if(quesBelong.IsChecked == false)
+                        {
+                            quesBank.WordId = Convert.ToInt32(wordIdTextBox.Text);
+                        }
+                        else
+                        {
+                            Words word = (Words)((MainWindow)Application.Current.MainWindow).wordListView.SelectedValue;
+                            wordIdTextBox.Text = word.WordId.ToString();
+                            wordTextBox.Text = word.Word;
+                        }
                         greDatabase.SubmitQuestion(quesBank);
-                        BindQuestionGrid(questionListView);
                         MessageBox.Show("Successfully added to the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
+                        questionId.Text = "";
                         question.Text = "";
                         option1.Text = "";
                         option2.Text = "";
                         option3.Text = "";
                         option4.Text = "";
                         answer.SelectedIndex = 0;
-                        wordFilterView.SelectedItem = null;
-                        txtFilter.Text = "";
+                        quesBelong.IsChecked = false;
                     }
                     else
                     {
@@ -153,25 +156,30 @@ namespace GRE_Vocabs
                         quesBank.Option3 = opt3;
                         quesBank.Option4 = opt4;
                         quesBank.Answer = ans;
-                        quesBank.WordId = ((Words)word).WordId;
+                        if (quesBelong.IsChecked == false)
+                        {
+                            quesBank.WordId = Convert.ToInt32(wordIdTextBox.Text);
+                        }
+                        else
+                        {
+                            Words word = (Words)((MainWindow)Application.Current.MainWindow).wordListView.SelectedValue;
+                            wordIdTextBox.Text = word.WordId.ToString();
+                            wordTextBox.Text = word.Word;
+                        }
                         greDatabase.UpdateQuestion(quesBank);
-                        BindQuestionGrid(questionListView);
                         MessageBox.Show("Successfully updated to the question bank!", "QuestionBank", MessageBoxButton.OK, MessageBoxImage.Information);
+                        questionId.Text = "";
                         question.Text = "";
                         option1.Text = "";
                         option2.Text = "";
                         option3.Text = "";
                         option4.Text = "";
                         answer.SelectedIndex = 0;
-                        wordFilterView.SelectedItem = null;
-                        txtFilter.Text = "";
+                        quesBelong.IsChecked = false;
                         questionTabView.SelectedIndex = 1;
                         addQuestion.Content = "Add To The Question Bank";
                         cancel.Visibility = Visibility.Hidden;
                     }
-                }
-                else
-                {
                 }
             }
 
@@ -186,17 +194,10 @@ namespace GRE_Vocabs
                 QuestionsBank quesBank = (QuestionsBank)item;
                 int quesId = quesBank.QuestionID;
                 greDatabase.DeleteQuestion(quesId);
-                BindQuestionGrid(questionListView);
+                List<QuestionsBank> ques = greDatabase.GetAllQuestions();
+                questionListView.ItemsSource = ques;
                 MessageBox.Show("Successfully deleted from the question bank!", "GRE Vocabulary List", MessageBoxButton.OK, MessageBoxImage.Information);
             }
-            else
-            {
-                //do yes stuff
-            }
-
-
-
-
         }
 
         private void EditQuestion_Click(object sender, RoutedEventArgs e)
@@ -209,7 +210,7 @@ namespace GRE_Vocabs
             option2.Text = quesBank.Option2;
             option3.Text = quesBank.Option3;
             option4.Text = quesBank.Option4;
-            if(quesBank.Option1 == quesBank.Answer)
+            if (quesBank.Option1 == quesBank.Answer)
             {
                 answer.SelectedValue = "Option1";
             }
@@ -226,8 +227,20 @@ namespace GRE_Vocabs
                 answer.SelectedValue = "Option4";
             }
             questionTabView.SelectedIndex = 0;
-            Words word = greDatabase.GetWord(quesBank.WordId);
-            wordFilterView.SelectedValue = word.Word;
+            if (quesBank.WordId.HasValue && quesBank.WordId != 0)
+            {
+                Words word = greDatabase.GetWord(quesBank.WordId.Value);
+                wordIdTextBox.Text = word.WordId.ToString();
+                wordTextBox.Text = word.Word;
+                quesBelong.IsChecked = false;
+            }
+            else
+            {
+                wordTextBox.Text = "";
+                wordIdTextBox.Text = "";
+                quesBelong.IsChecked = true;
+            }
+
             addQuestion.Content = "Update question";
             cancel.Visibility = Visibility.Visible;
 
@@ -236,16 +249,51 @@ namespace GRE_Vocabs
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
+            questionId.Text = "";
             question.Text = "";
             option1.Text = "";
             option2.Text = "";
             option3.Text = "";
             option4.Text = "";
             answer.SelectedIndex = 0;
-            wordFilterView.SelectedItem = null;
+            quesBelong.IsChecked = true;
             questionTabView.SelectedIndex = 1;
             addQuestion.Content = "Add To The Question Bank";
             cancel.Visibility = Visibility.Hidden;
+            Words word = (Words)((MainWindow)Application.Current.MainWindow).wordListView.SelectedValue;
+            if(word != null)
+            {
+                wordIdTextBox.Text = word.WordId.ToString();
+                wordTextBox.Text = word.Word;
+                quesBelong.IsChecked = false;
+            }
+            else
+            {
+                wordTextBox.Text = "";
+                wordIdTextBox.Text = "";
+                quesBelong.IsChecked = true;
+            }
+
+        }
+
+        private void QuesBelong_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (quesBelong.IsChecked == true)
+            {
+                wordTextBox.Text = "";
+                wordIdTextBox.Text = "";
+            }
+            else
+            {
+                Words word = (Words)((MainWindow)Application.Current.MainWindow).wordListView.SelectedValue;
+                if (word != null)
+                {
+                    wordIdTextBox.Text = word.WordId.ToString();
+                    wordTextBox.Text = word.Word;
+                }
+
+            }
         }
     }
 }

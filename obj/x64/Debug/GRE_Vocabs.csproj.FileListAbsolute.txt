@@ -241,4 +241,3 @@ C:\Users\apgomes\source\repos\OwnDev\GREVocabs\GRE_Vocabs\obj\x64\Debug\GRE_Voca
 C:\Users\apgomes\source\repos\OwnDev\GREVocabs\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.exe
 C:\Users\apgomes\source\repos\OwnDev\GREVocabs\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.pdb
 C:\Users\apgomes\source\repos\OwnDev\GREVocabs\GRE_Vocabs\obj\x64\Debug\MainWindow.g.cs
-C:\Users\apgomes\source\repos\OwnDev\GREVocabs\GRE_Vocabs\obj\x64\Debug\GRE_Vocabs.csprojAssemblyReference.cache

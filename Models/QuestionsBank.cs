@@ -18,7 +18,7 @@ namespace GRE_Vocabs.Models
         public int? NumberOfTimeAsked { get; set; }
         public int? NumOfCorrectAns { get; set; }
         public decimal? Accuracy { get; set; }
-        public int WordId { get; set; }
+        public int? WordId { get; set; }
         public virtual Words Words { get; set; }
 
 

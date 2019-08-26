@@ -66,7 +66,7 @@
         </Border>
 
         <Grid DockPanel.Dock="Bottom" >
-            <TabControl x:Name="questionTabView" BorderBrush="#41020202">
+            <TabControl x:Name="questionTabView" BorderBrush="#41020202" SelectionChanged="QuestionTabView_SelectionChanged">
 
                 <TabControl.Resources>
                     <Style x:Key="TabItemText" TargetType="{x:Type TextBlock}">
@@ -110,7 +110,7 @@
                     <DropShadowBitmapEffect Color="Black" Direction="270"/>
                 </TabControl.BitmapEffect>
 
-                <TabItem>
+                <TabItem x:Name="addQTabItem">
                     <TabItem.Header >
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Add Question" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
@@ -135,7 +135,7 @@
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
                         <Border Grid.Row="1" Grid.Column="0">
-                            <TextBox x:Name="questionId" FontFamily="Open Sans" FontSize="15" TextWrapping="Wrap" Visibility="Collapsed"/>
+                            <TextBox x:Name="questionId" FontFamily="Open Sans" FontSize="15" TextWrapping="Wrap"/>
                         </Border>
                         <Border Grid.Row="2" Grid.Column="0">
                             <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Question"/></TextBlock>
@@ -147,27 +147,12 @@
                         <Border Grid.Row="3" Grid.Column="0" Margin="10">
                             <DockPanel>
                                 <StackPanel DockPanel.Dock="Top">
-                                    <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap"><Run Text="Select correct answer for the word stats"/></TextBlock>
-                                    <TextBox  Margin="0,0,0,10" Height="30" Name="txtFilter" TextChanged="txtFilter_TextChanged" BorderBrush="#FF264765" />
+                                    <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="15" TextWrapping="Wrap"><Run Text="Word That Links To This Question"/></TextBlock>
+                                    <TextBox  Margin="0,0,0,10" Height="30" x:Name="wordIdTextBox" x:FieldModifier="public" BorderBrush="#FF264765" Visibility="Collapsed" />
+                                    <TextBox  Margin="0,10,0,10" Height="30" x:Name="wordTextBox" x:FieldModifier="public" BorderBrush="#FF264765" Background="#D3D3D3" FontSize="15" IsReadOnly="True"/>
+                                    <CheckBox x:Name="quesBelong" Content="No word stats" Click="QuesBelong_Click"/>
+                                    <TextBlock Margin="0,30,0,10" FontFamily="Open Sans" Foreground="black" FontSize="11" TextWrapping="Wrap"><Run Text="Notes: This question will be linked to the word above. Stats for the word above will be calculated based on how well you do on this question. If this question does not belong to the selected word, check the checkbox."/></TextBlock>
                                 </StackPanel>
-                                <ListView Name="wordFilterView" Height="300" SelectedValuePath="Word" Margin="5" FontFamily="Open Sans" FontSize="15" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
-                                    <ListView.ItemContainerStyle>
-                                        <Style TargetType="{x:Type ListViewItem}">
-                                            <Setter Property="Margin" Value="5"/>
-                                            <Style.Triggers>
-                                                <Trigger Property="Selector.IsSelected"  Value="true">
-                                                    <Setter Property="Foreground" Value="white" />
-                                                    <Setter Property="Background" Value="#264765" />
-                                                </Trigger>
-                                            </Style.Triggers>
-                                        </Style>
-                                    </ListView.ItemContainerStyle>
-                                    <ListView.View>
-                                        <GridView>
-                                            <GridViewColumn Header="Words" Width="Auto" DisplayMemberBinding="{Binding Word}" />
-                                        </GridView>
-                                    </ListView.View>
-                                </ListView>
                             </DockPanel>
                         </Border>
                         <Border Grid.Row="3" Grid.Column="1" Margin="10">
@@ -208,7 +193,7 @@
                         </Border>
                     </Grid>
                 </TabItem>
-                <TabItem Background="#264765" Padding="8">
+                <TabItem x:Name="qListTabItem" Background="#264765" Padding="8">
                     <TabItem.Header >
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Question" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
@@ -246,7 +231,7 @@
                                                 <Button Style="{StaticResource listButton}" x:Name="EditQuestion" ToolTip ="Edit" Width="35" Height="35" Click="EditQuestion_Click">
                                                     <Image Source="/GRE_Vocabs;component/Images\edit.png"/>
                                                 </Button>
-                                                <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35" Click="DeleteQuestion_Click" >
+                                                <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35" Click="DeleteQuestion_Click">
                                                     <Image Source="/GRE_Vocabs;component/Images\delete.png"/>
                                                 </Button>
                                             </StackPanel>

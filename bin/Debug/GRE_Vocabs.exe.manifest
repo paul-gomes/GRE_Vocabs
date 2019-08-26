@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRE_Vocabs.exe" size="543656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRE_Vocabs.exe" size="546216">
       <assemblyIdentity name="GRE_Vocabs" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gsFpnADu710E19ISBwa2UEYNjEjDYjNMgn6sb72q+t4=</dsig:DigestValue>
+        <dsig:DigestValue>kcDLcktSbCZBuil9NJbruLwZJUzWBoUbQKEJHUCDL4U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
