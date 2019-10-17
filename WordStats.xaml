@@ -135,10 +135,10 @@
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="Word" Width="150" DisplayMemberBinding="{Binding Word}"/>
-                            <GridViewColumn Header="Word Status" Width="150" DisplayMemberBinding="{Binding WordStatus}"/>
+                            <GridViewColumn Header="Word Status" Width="130" DisplayMemberBinding="{Binding WordStatus}"/>
                             <GridViewColumn Header="Appeared In Test" Width="150" DisplayMemberBinding="{Binding NumOfTimeTested}"/>
                             <GridViewColumn Header="Correct In Test" Width="150" DisplayMemberBinding="{Binding NumOfTimeAccurate}"/>
-                            <GridViewColumn Header="Accuracy(%)" Width="150" DisplayMemberBinding="{Binding Accuracy}"/>
+                            <GridViewColumn Header="Accuracy(%)" Width="130" DisplayMemberBinding="{Binding Accuracy}"/>
                             <GridViewColumn Header="Actions">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>

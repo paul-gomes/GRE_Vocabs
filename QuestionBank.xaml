@@ -135,7 +135,7 @@
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
                         <Border Grid.Row="1" Grid.Column="0">
-                            <TextBox x:Name="questionId" FontFamily="Open Sans" FontSize="15" TextWrapping="Wrap"/>
+                            <TextBox x:Name="questionId" FontFamily="Open Sans" FontSize="15" TextWrapping="Wrap" Visibility="Collapsed"/>
                         </Border>
                         <Border Grid.Row="2" Grid.Column="0">
                             <TextBlock FontFamily="Open Sans" Foreground="black" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"><Run Text="Question"/></TextBlock>
@@ -196,52 +196,53 @@
                 <TabItem x:Name="qListTabItem" Background="#264765" Padding="8">
                     <TabItem.Header >
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Question" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
+                            <TextBlock Text="Questions" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
                         </StackPanel>
                     </TabItem.Header>
+                    <StackPanel>
+                        <ListView Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="{x:Type ListViewItem}">
+                                    <Setter Property="Margin" Value="10"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="Selector.IsSelected"  Value="true">
+                                            <Setter Property="Foreground" Value="white" />
+                                            <Setter Property="Background" Value="#264765" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Question" Width="460">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Question}" Width="450" TextWrapping="Wrap" />
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header="Answer" Width="100" DisplayMemberBinding="{Binding Answer}"/>
+                                    <GridViewColumn Header="Appeared in Test" Width="130" DisplayMemberBinding="{Binding NumberOfTimeAsked}"/>
+                                    <GridViewColumn Header="Accuracy(%)" Width="100" DisplayMemberBinding="{Binding Accuracy}"/>
+                                    <GridViewColumn Header="Actions">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Button Style="{StaticResource listButton}" x:Name="EditQuestion" ToolTip ="Edit" Width="35" Height="35" Click="EditQuestion_Click">
+                                                        <Image Source="/GRE_Vocabs;component/Images\edit.png"/>
+                                                    </Button>
+                                                    <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35" Click="DeleteQuestion_Click">
+                                                        <Image Source="/GRE_Vocabs;component/Images\delete.png"/>
+                                                    </Button>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
 
-                    <ListView Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black">
-                        <ListView.ItemContainerStyle>
-                            <Style TargetType="{x:Type ListViewItem}">
-                                <Setter Property="Margin" Value="10"/>
-                                <Style.Triggers>
-                                    <Trigger Property="Selector.IsSelected"  Value="true">
-                                        <Setter Property="Foreground" Value="white" />
-                                        <Setter Property="Background" Value="#264765" />
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </ListView.ItemContainerStyle>
-                        <ListView.View>
-                            <GridView>
-                                <GridViewColumn Header="Question" Width="460">
-                                    <GridViewColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <TextBlock Text="{Binding Question}" Width="450" TextWrapping="Wrap" />
-                                        </DataTemplate>
-                                    </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
-                                <GridViewColumn Header="Answer" Width="100" DisplayMemberBinding="{Binding Answer}"/>
-                                <GridViewColumn Header="Appeared in Test" Width="130" DisplayMemberBinding="{Binding NumberOfTimeAsked}"/>
-                                <GridViewColumn Header="Accuracy(%)" Width="100" DisplayMemberBinding="{Binding Accuracy}"/>
-                                <GridViewColumn Header="Actions">
-                                    <GridViewColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <StackPanel Orientation="Horizontal">
-                                                <Button Style="{StaticResource listButton}" x:Name="EditQuestion" ToolTip ="Edit" Width="35" Height="35" Click="EditQuestion_Click">
-                                                    <Image Source="/GRE_Vocabs;component/Images\edit.png"/>
-                                                </Button>
-                                                <Button Style="{StaticResource listButton}" x:Name="deleteQuestion" ToolTip ="Delete" Width="35" Height="35" Click="DeleteQuestion_Click">
-                                                    <Image Source="/GRE_Vocabs;component/Images\delete.png"/>
-                                                </Button>
-                                            </StackPanel>
-                                        </DataTemplate>
-                                    </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
-
-                            </GridView>
-                        </ListView.View>
-                    </ListView>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </StackPanel>
                 </TabItem>
 
             </TabControl>
