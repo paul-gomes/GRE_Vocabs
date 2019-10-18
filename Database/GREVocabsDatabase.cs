@@ -1745,5 +1745,36 @@ namespace GRE_Vocabs.Database
             dbConnection.Close();
         }
 
+        public List<QuestionsBank> SearchQuestions(string serachString)
+        {
+            List<QuestionsBank> data = new List<QuestionsBank>();
+            dbConnection.Open();
+            SQLiteCommand sqlite_cmd = dbConnection.CreateCommand();
+            sqlite_cmd.CommandText = String.Format("SELECT * FROM QuestionsBank WHERE Question like '%{0}%' OR Answer like '%{1}%'; ", serachString, serachString);
+            SQLiteDataReader reader = sqlite_cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    QuestionsBank question = new QuestionsBank();
+                    question.QuestionID = Convert.ToInt32(reader.GetValue(0));
+                    question.Question = reader.GetString(1);
+                    question.Option1 = reader.GetString(2);
+                    question.Option2 = reader.GetString(3);
+                    question.Option3 = reader.GetString(4);
+                    question.Option4 = reader.GetString(5);
+                    question.Answer = reader.GetString(6);
+                    question.NumberOfTimeAsked = Convert.IsDBNull(reader.GetValue(7)) ? 0 : Convert.ToInt32(reader.GetValue(7));
+                    question.NumOfCorrectAns = Convert.IsDBNull(reader.GetValue(8)) ? 0 : Convert.ToInt32(reader.GetValue(8));
+                    question.Accuracy = Convert.IsDBNull(reader.GetValue(9)) ? 0 : Convert.ToDecimal(reader.GetValue(9));
+                    question.WordId = Convert.ToInt32(reader.GetValue(10));
+                    data.Add(question);
+                }
+            }
+
+            dbConnection.Close();
+            return data;
+
+        }
     }
 }

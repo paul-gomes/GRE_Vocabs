@@ -199,8 +199,12 @@
                             <TextBlock Text="Questions" FontFamily="Open Sans" Style="{StaticResource TabItemText}" FontSize="15" />
                         </StackPanel>
                     </TabItem.Header>
-                    <StackPanel>
-                        <ListView Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler">
+                    <DockPanel>
+                        <WrapPanel DockPanel.Dock="Top">
+                            <TextBox x:Name="searchText" BorderBrush="#FF264765" FontFamily="Open Sans"  FontSize="15" Margin="7,0"  Height="40" Width="800" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"/>
+                            <Button x:Name="searchQ" ToolTip="This will search both question and answer. Remove any text and click search again to clear your previous search." ToolTipService.ShowDuration="5000" Margin="5,0" Cursor="Hand" Click="SearchQ_Click" Content="Search"/>
+                        </WrapPanel>
+                        <ListView DockPanel.Dock="Bottom" Margin="10" x:Name="questionListView" FontFamily="Open Sans" FontSize="16" Cursor="Hand" BorderBrush="#FF264765" Foreground="Black" OpacityMask="Black" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler">
                             <ListView.ItemContainerStyle>
                                 <Style TargetType="{x:Type ListViewItem}">
                                     <Setter Property="Margin" Value="10"/>
@@ -238,11 +242,10 @@
                                             </DataTemplate>
                                         </GridViewColumn.CellTemplate>
                                     </GridViewColumn>
-
                                 </GridView>
                             </ListView.View>
                         </ListView>
-                    </StackPanel>
+                    </DockPanel>
                 </TabItem>
 
             </TabControl>

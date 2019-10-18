@@ -364,6 +364,12 @@ namespace GRE_Vocabs
             }
         }
 
+        private void SearchQ_Click(object sender, RoutedEventArgs e)
+        {
+            string serachText = searchText.Text;
+            List<QuestionsBank> quesBank = greDatabase.SearchQuestions(serachText);
+            questionListView.ItemsSource = quesBank;
 
+        }
     }
 }
